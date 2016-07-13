@@ -1239,6 +1239,15 @@
 					<Description>Students who have limited English language skills can use the translated directions support. This support should only be used for students who are proficient readers in the other language and not proficient in English. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
+			<Selection>
+				<Code>NEDS_SimpDirs</Code>
+				<Order>24</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Simplified test directions</Label>
+					<Description>The test administrator simplifies or paraphrases the test directions found in the test administration manual according to the Simplified Test Directions guidelines.</Description>
+				</Text>
+			</Selection>
 		</MultiSelectResource>
 
 		<MultiSelectResource>
@@ -1320,6 +1329,15 @@
 					<Language>eng</Language>
 					<Label>Multiplication Table</Label>
 					<Description>For students with a documented and persistent calculation disability (i.e., dyscalculia). (NON-EMBEDDED)</Description>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>NEA_NumTbl</Code>
+				<Order>9</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>100s Number Table</Label>
+					<Description>A paper-based table listing numbers from 1–100 available from Smarter Balanced for reference.</Description>
 				</Text>
 			</Selection>
 		</MultiSelectResource>
