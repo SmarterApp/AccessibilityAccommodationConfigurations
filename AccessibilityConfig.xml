@@ -1236,7 +1236,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Translated test directions</Label>
-					<Description>Students who have limited English language skills can use the translated directions support. This support should only be used for students who are proficient readers in the other language and not proficient in English. (EMBEDDED)</Description>
+					<Description>Students who have limited English language skills can use the translated directions support. This support should only be used for students who are proficient readers in the other language and not proficient in English. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1245,7 +1245,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Simplified test directions</Label>
-					<Description>The test administrator simplifies or paraphrases the test directions found in the test administration manual according to the Simplified Test Directions guidelines.</Description>
+					<Description>The test administrator simplifies or paraphrases the test directions found in the test administration manual according to the Simplified Test Directions guidelines. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
 		</MultiSelectResource>
