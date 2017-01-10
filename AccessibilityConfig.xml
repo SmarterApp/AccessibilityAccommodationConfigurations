@@ -11,12 +11,13 @@
 
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>AmericanSignLanguage</Code>
+						<Code>AmericanSignLanguage</Code>
 			<Order>1</Order>
+			<DefaultSelection/>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
-				<Label>American Sign Language for ELA Listening and Math Items (EMBEDDED)*</Label>
+				<Label>American Sign Language (EMBEDDED)*</Label>
 				<Description>Some students who are deaf or hard of hearing and who typically use ASL may need this accommodation when accessing text-based content in the assessment. The use of this accommodation may result in the student needing additional overall time to complete the assessment. For many students who are deaf or hard of hearing, viewing signs is the only way to access information presented orally. It is important to note, however, that some students who are hard of hearing will be able to listen to information presented orally if provided with appropriate amplification and a setting in which extraneous sounds do not interfere with clear presentation of the audio presentation in a listening test. (EMBEDDED)</Description>
 			</Text>
 			<Selection>
@@ -40,7 +41,7 @@
 
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>ColorContrast</Code>
+					<Code>ColorContrast</Code>
 			<Order>2</Order>
 			<DefaultSelection>TDS_CC0</DefaultSelection>
       <ResourceType>DesignatedSupport</ResourceType>
@@ -136,33 +137,91 @@
 					<Language>eng</Language>
 					<Label>English</Label>
 				</Text>
-			</Selection>
-			<Selection>
-				<Code>ENU-Braille</Code>
-				<Order>2</Order>
-        <ResourceType>Accommodation</ResourceType>
-				<Text>
-					<Language>eng</Language>
-					<Label>Braille*</Label>
-					<Description>Students with visual impairments may read text via braille. Tactile overlays and graphics also may be used to assist the student in accessing content through touch. Refreshable braille is available only for ELA because Nemeth Code is not available via refreshable braille. For math, braille will be presented via embosser; embosser-created braille can be used for ELA also. The type of braille presented to the student (contracted or non-contracted) is set in TIDE, or state’s comparable platform. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
+			</Selection>			
 			<Selection>
 				<Code>ESN</Code>
-				<Order>3</Order>
-				 <ResourceType>DesignatedSupport</ResourceType>
+				<Order>2</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Spanish (Stacked Translation)*</Label>
+					<Label>Spanish (Stacked Translation) (EMBEDDED)*</Label>
 					<Description>For students whose primary language is not English and who use dual language supports in the classroom, use of the stacked (dual language) translation may be appropriate. Students participate in the assessment regardless of the language. This support will increase reading load and cognitive load. The use of this support may result in the student needing additional overall time to complete the assessment. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
 		</SingleSelectResource>
 
+    <SingleSelectResource>
+    <UserSelectionOption> Dropdown </UserSelectionOption>
+      <Code>BrailleType</Code>
+      <Order>5</Order>
+      <ResourceType>Accommodation</ResourceType>
+      <DefaultSelection>TDS_BT0</DefaultSelection>
+      <Text>
+        <Language>eng</Language>
+        <Label>Braille Type (EMBEDDED)*</Label>
+        <Description>Students with visual impairments may read text via braille. Tactile overlays and graphics also may be used to assist the student in accessing content through touch. Refreshable braille is available only for ELA because Nemeth Code is not available via refreshable braille. For math, braille will be presented via embosser; embosser-created braille can be used for ELA also. The type of braille presented to the student (contracted or non-contracted) is set in TIDE, or state’s comparable platform. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
+      </Text>
+      <Selection>
+        <Code>TDS_BT0</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>No Braille</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_BT_EXN</Code>
+        <Order>2</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Uncontracted - Nemeth Math</Label>
+        </Text>
+      </Selection>      
+      <Selection>
+        <Code>TDS_BT_ECN</Code>
+        <Order>3</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Contracted - Nemeth Math</Label>
+        </Text>
+      </Selection>       
+      <Selection>
+        <Code>TDS_BT_UXN</Code>
+        <Order>4</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - Nemeth Math</Label>
+        </Text>
+      </Selection>        
+      <Selection>
+        <Code>TDS_BT_UCN</Code>
+        <Order>5</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - Nemeth Math</Label>
+        </Text>
+      </Selection>          
+      <Selection>
+        <Code>TDS_BT_UXT</Code>
+        <Order>6</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - UEB Math</Label>
+        </Text>
+      </Selection>          
+      <Selection>
+        <Code>TDS_BT_UCT</Code>
+        <Order>7</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - UEB Math</Label>
+        </Text>
+      </Selection> 
+        </SingleSelectResource>
+    
 		<SingleSelectResource>
-			<UserSelectionOption> Dropdown </UserSelectionOption>
+		 <UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>Masking</Code>
-			<Order>5</Order>
+			<Order>6</Order>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -188,9 +247,9 @@
 		</SingleSelectResource>
 
 		<SingleSelectResource>
-			<UserSelectionOption> Dropdown </UserSelectionOption>
+		 <UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>PermissiveMode</Code>
-			<Order>6</Order>
+			<Order>7</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -215,11 +274,10 @@
 			</Selection>
 		</SingleSelectResource>
 
-
-<SingleSelectResource>
-	<UserSelectionOption> Dropdown </UserSelectionOption>
+		<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>PrintOnDemand</Code>
-			<Order>7</Order>
+			<Order>8</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -258,12 +316,12 @@
 					<Label>Stimuli and Items</Label>
 				</Text>
 			</Selection>
-			</SingleSelectResource>
-			
+		</SingleSelectResource>
+
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>PrintSize</Code>
-			<Order>8</Order>
+			<Order>9</Order>
 			<DefaultSelection>TDS_PS_L0</DefaultSelection>      
 			<Text>
 				<Language>eng</Language>
@@ -314,12 +372,12 @@
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>StreamlinedInterface</Code>
-			<Order>9</Order>
+			<Order>10</Order>
 			<DefaultSelection>TDS_SLM0</DefaultSelection>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
-				<Label>Streamlined Interface (EMBEDDED) </Label>
+				<Label>Streamlined Interface (EMBEDDED)</Label>
         <Description>Layout with stimulus displayed above and items displayed below. All tool and navigation buttons are on the bottom of the screen. Important: The streamlined interface is not intended to be tablet compatible. (EMBEDDED)</Description>
 			</Text>
 			<Selection>
@@ -343,7 +401,7 @@
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>TexttoSpeech</Code>
-			<Order>10</Order>
+			<Order>11</Order>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -356,7 +414,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>None</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -365,7 +423,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Items Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -374,7 +432,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Stimuli Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -383,7 +441,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Stimuli and Items</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
 		</SingleSelectResource>
@@ -391,7 +449,7 @@
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>Translation</Code>
-			<Order>11</Order>
+			<Order>12</Order>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -580,12 +638,12 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>Breaks</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>12</Order>      
+			<Order>13</Order>      
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
 				<Label>Breaks</Label>
-        <Description>The number of items per session can be flexibly defined based on the student’s need. Breaks of more than 20 minutes will prevent the student from returning to items already attempted by the student. There is no limit on the number of breaks that a student might be given. The use of this universal tool may result in the student needing additional overall time to complete the assessment (EMBEDDED).</Description>
+        <Description>The number of items per session can be flexibly defined based on the student’s need. Breaks of more than 20 minutes will prevent the student from returning to items already attempted by the student. There is no limit on the number of breaks that a student might be given. The use of this universal tool may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
 			</Text>			
 		</SingleSelectResource>
     
@@ -593,13 +651,13 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>Calculator</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>13</Order>
+			<Order>14</Order>
       <DefaultSelection>TDS_CalcBasic</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
 				<Label>Calculator</Label>
-        <Description>An on-screen digital calculator can be accessed for calculator-allowed items when students click on the calculator button. This tool is available only with the specific items for which the Smarter Balanced Item Specificationsindicated that it would be  appropriate. When the embedded calculator, as presented for all students, is not appropriate for a student (for example, for a student who is blind), the student may use the calculator offered with assistive technology devices (such as a talking calculator or a braille calculator). (EMBEDDED)</Description>
+        <Description>An on-screen digital calculator can be accessed for calculator-allowed items when students click on the calculator button. This tool is available only with the specific items for which the Smarter Balanced Item Specificationsindicated that it would be  appropriate. When the embedded calculator, as presented for all students, is not appropriate for a student (for example, for a student who is blind), the student may use the calculator ered with assistive technology devices (such as a talking calculator or a braille calculator). (EMBEDDED)</Description>
 			</Text>
       <Selection>
 				<Code>TDS_CalcBasic</Code>
@@ -623,7 +681,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>DigitalNotepad</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>14</Order>
+			<Order>15</Order>
       <DefaultSelection>TDS_SCNotepad</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -653,7 +711,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>EnglishDictionary</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>15</Order>
+			<Order>16</Order>
       <DefaultSelection>TDS_Dict_SD4</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -683,7 +741,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>EnglishGlossary</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>16</Order>
+			<Order>17</Order>
       <DefaultSelection>TDS_WL_Glossary</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -713,7 +771,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>ExpandablePassages</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>17</Order>
+			<Order>18</Order>
       <DefaultSelection>TDS_ExpandablePassages1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -743,7 +801,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>GlobalNotes</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>18</Order>
+			<Order>19</Order>
       <DefaultSelection>TDS_GN1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -773,7 +831,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>Highlighter</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>19</Order>
+			<Order>20</Order>
       <DefaultSelection>TDS_Highlight1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -803,7 +861,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>KeyboardNavigation</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>20</Order>
+			<Order>21</Order>
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -817,7 +875,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>MarkforReview</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>21</Order>
+			<Order>22</Order>
       <DefaultSelection>TDS_MfR1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -847,7 +905,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>MathTools</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>22</Order>      
+			<Order>23</Order>      
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -860,7 +918,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>SpellCheck</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>23</Order>
+			<Order>24</Order>
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -873,7 +931,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>Strikethrough</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>24</Order>
+			<Order>25</Order>
       <DefaultSelection>TDS_ST1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -903,7 +961,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>WritingTools</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>25</Order>
+			<Order>26</Order>
       <DefaultSelection>TDS_ITM1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -933,7 +991,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 			<Code>Zoom</Code>
 		<EmbedType>Embed</EmbedType>
-			<Order>26</Order>
+			<Order>27</Order>
       <ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -946,7 +1004,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 		<Code>BreaksNE</Code>
 		 <EmbedType>NonEmbed</EmbedType>
-			<Order>27</Order>      
+			<Order>28</Order>      
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -959,7 +1017,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 		<Code>EnglishDictionaryNE</Code>
 	 <EmbedType>NonEmbed</EmbedType>
-		<Order>28</Order>
+		<Order>29</Order>
       <DefaultSelection>TDS_Dict_SD4</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -989,7 +1047,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 		<Code>ScratchPaper</Code>
 		<EmbedType>NonEmbed</EmbedType>
-			<Order>29</Order>
+			<Order>30</Order>
 			<ResourceType>Universal</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -1002,7 +1060,7 @@
 		<UserSelectionOption> Checkbox </UserSelectionOption>
 		<Code>Thesaurus</Code>
 		<EmbedType>NonEmbed</EmbedType>
-		<Order>30</Order>
+		<Order>31</Order>
       <DefaultSelection>TDS_TH_TA</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -1031,7 +1089,7 @@
     <SingleSelectResource>
     <UserSelectionOption> Dropdown </UserSelectionOption>
       <Code>IllustrationGlossary</Code>
-      <Order>31</Order>
+      <Order>32</Order>
 			<Text>
 				<Language>eng</Language>
 				<Label>Illustration Glossary</Label>
@@ -1057,7 +1115,7 @@
 		<MultiSelectResource>
 		<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>NonEmbeddedDesignatedSupports</Code>
-			<Order>32</Order>
+			<Order>33</Order>
 			<DefaultSelection>NEDS0</DefaultSelection>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
@@ -1132,8 +1190,8 @@
 				<Order>8</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Read Aloud PT Stimuli-English (NON-EMBEDDED)*</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages. Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
+					<Label>Read Aloud PT Stimuli-English (NON-EMBEDDED)</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages.  Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1141,7 +1199,7 @@
 				<Order>9</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Read Aloud Items-Spanish (NON-EMBEDDED)*</Label>
+					<Label>Read Aloud Items-Spanish (NON-EMBEDDED)</Label>
 					<Description>Students who are struggling readers may need assistance accessing the assessment by having all or portions of the assessment read aloud in Spanish. This support also may be needed by students with reading-related disabilities, or by students who are blind and do not yet have adequate braille skills. If not used regularly during instruction, this support is likely to be confusing and may impede the performance on assessments. Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. The use of this support may result in the student needing additional overall time to complete the assessment. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
@@ -1150,8 +1208,8 @@
 				<Order>10</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Read Aloud PT Stimuli-Spanish (NON-EMBEDDED)*</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured.>For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages. Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
+					<Label>Read Aloud PT Stimuli-Spanish (NON-EMBEDDED)</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages.  Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1276,16 +1334,17 @@
                 <Order>24</Order>
                 <Text>
                     <Language>eng</Language>
-                    <Label>Simplified test directions (NON-EMBEDDED)*</Label>
+                    <Label>Simplified Test Directions (NON-EMBEDDED)</Label>
                     <Description>The test administrator simplifies or paraphrases the test directions found in the test administration manual according to the Simplified Test Directions guidelines. (NON-EMBEDDED)</Description>
                 </Text>
             </Selection>
+
 		</MultiSelectResource>
 
 		<MultiSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>NonEmbeddedAccommodations</Code>
-			<Order>33</Order>
+			<Order>34</Order>
 			<DefaultSelection>NEA0</DefaultSelection>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
@@ -1316,7 +1375,7 @@
 				<Text>
 					<Language>eng</Language>
 					<Label>Read Aloud for Reading Passages (NON-EMBEDDED)*</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages. Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, read aloud will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, read aloud is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to read aloud on reading test passages.  Readers should be provided to students on an individual basis – not to a group of students. A student should have the option of asking a reader to slow down or repeat text. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1377,7 +1436,7 @@
 		
 		<EditResource>
 			<Code>Other</Code>
-			<Order>34</Order>
+			<Order>35</Order>
 			<Text>
 				<Language>eng</Language>
 				<Label>Other</Label>
@@ -1387,7 +1446,7 @@
   <SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>TurnOffAnyUniversalTool</Code>
-			<Order>35</Order>
+			<Order>36</Order>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -1395,7 +1454,7 @@
 				<Description>Students who are easily distracted (whether or not designated as having attention difficulties or disabilities) may be overwhelmed by some of the universal tools.  Knowing which specific tools may be distracting is important for determining which tools to turn off. (EMBEDDED)</Description>
 			</Text>
 			<Selection>
-				<Code>TDS_Masking0</Code>
+				<Code>X!_TDS_UT0</Code>
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
@@ -1403,7 +1462,7 @@
 				</Text>
 			</Selection>
 			<Selection>
-				<Code>TDS_Masking1</Code>
+				<Code>X!_TD_UT1</Code>
 				<Order>2</Order>
 				<Text>
 					<Language>eng</Language>
@@ -1414,48 +1473,9 @@
 
 
 			
-<!-- Select the no braille type as default -->
-    <SingleSelectResource>
-    	<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>BrailleType</Code>
-			<Order>36</Order>
-      <ResourceType>Accommodation</ResourceType>
-      <Text>
-      <Language>eng</Language>
-      <Label>Braille (EMBEDDED)</Label>
-      <Description>Students with visual impairments may read text via braille. Tactile overlays and graphics also may be used to assist the student in accessing content through touch. Refreshable braille is available only for ELA because Nemeth Code is not available via refreshable braille. For math, braille will be presented via embosser; embosser-created braille can be used for ELA also. The type of braille presented to the student (contracted or non-contracted) is set in TIDE, or state’s comparable platform. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
-      </Text>
-           <Selection>
-        <Code>TDS_BT0</Code>
-        	<Text>
-			<Language>eng</Language>
-					<Label>No braille (EMBEDDED)</Label>
-				</Text>
-      </Selection>
-       <Selection>
-        <Code>TDS_BT_G1</Code>
-        <Text>
-               	<Language>eng</Language>
-					<Label>Uncontracted EBAE (English Braille American Edition)</Label>
-				</Text>
-      </Selection>
-       <Selection>
-        <Code>TDS_BT_G2</Code>
-         <Text>
-               	<Language>eng</Language>
-					<Label>Contracted EBAE (English Braille American Edition)</Label>
-				</Text>
-      </Selection>
-       <Selection>
-        <Code>TDS_BT_NM</Code>
-         <Text>
-               	<Language>eng</Language>
-					<Label>Contracted EBAE with Nemeth Math</Label>
-				</Text>
-      </Selection>
-    </SingleSelectResource>
-    
-    	<SingleSelectResource>
+		
+
+<SingleSelectResource>
 		 <UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>StackedSpanish</Code>
 			<Order>37</Order>
@@ -1482,14 +1502,63 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    <SingleSelectResource>
+
+<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>TexttoSpeechAcc</Code>
+			<Order>38</Order>
+      <ResourceType>Accommodation</ResourceType>
+			<Text>
+				<Language>eng</Language>
+				<Label>Text to Speech (EMBEDDED)*</Label>
+				<Description>Students who are struggling readers may need assistance accessing the assessment by having all or portions of the assessment read aloud. This support also may be needed by students with reading-related disabilities, or by students who are blind and do not yet have adequate braille skills. This support will likely be confusing and may impede the performance of students who do not regularly have the support during instruction. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+			</Text>
+			<Selection>
+				<Code>TDS_TTS0</Code>
+				<Order>1</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>None</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_TTS_Item </Code>
+				<Order>2</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Items Only</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_TTS_Stim</Code>
+				<Order>3</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>PT Stimuli and CAT Reading Passages Only (EMBEDDED)</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
+				<Order>4</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>PT Stimuli and CAT Reading Passages and Items (EMBEDDED)</Label>
+					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+				</Text>
+			</Selection>
+		</SingleSelectResource>
+		
+	  <SingleSelectResource>
      <UserSelectionOption> Dropdown </UserSelectionOption>
 				<Code>TransDirs</Code>
-				<Order>38</Order>
+				<Order>39</Order>
 				     <ResourceType>DesignatedSupport</ResourceType>
 				<Text>
 					<Language>eng</Language>
-					<Label>Translated test directions (EMBEDDED)*</Label>
+					<Label>Translated Test Directions (EMBEDDED)</Label>
 					<Description>Students who have limited English language skills can use the translated directions support. This support should only be used for students who are proficient readers in the other language and not proficient in English. (EMBEDDED)</Description>
 				</Text>
 <Selection>
@@ -1509,57 +1578,9 @@
 				</Text>
 			</Selection>
 	</SingleSelectResource>
-	
-	<SingleSelectResource>
-			<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>TexttoSpeechAcc</Code>
-			<Order>39</Order>
-      <ResourceType>Accommodation</ResourceType>
-			<Text>
-				<Language>eng</Language>
-				<Label>Text to Speech (EMBEDDED)*</Label>
-				<Description>Students who are struggling readers may need assistance accessing the assessment by having all or portions of the assessment read aloud. This support also may be needed by students with reading-related disabilities, or by students who are blind and do not yet have adequate braille skills. This support will likely be confusing and may impede the performance of students who do not regularly have the support during instruction. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-			</Text>
-			<Selection>
-				<Code>TDS_TTS0</Code>
-				<Order>1</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>None</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Item </Code>
-				<Order>2</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Items Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Stim</Code>
-				<Order>3</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Stimuli Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
-				<Order>4</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Stimuli and Items</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-		</SingleSelectResource>
+		
 	</MasterResourceFamily>
 	
-
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
 	<!-- RESOURCE FAMILY FOR ELA ALL GRADES -->
@@ -1592,22 +1613,93 @@
 		<Grade>13</Grade>
 		<Grade>PS</Grade>
 		<Grade>UG</Grade>
-
-
+ <SingleSelectResource>
+    <UserSelectionOption> Dropdown </UserSelectionOption>
+      <Code>BrailleType</Code>
+      <Order>5</Order>
+      <ResourceType>Accommodation</ResourceType>
+      <DefaultSelection>TDS_BT0</DefaultSelection>
+      <Text>
+        <Language>eng</Language>
+        <Label>Braille Type (EMBEDDED)*</Label>
+        <Description>Students with visual impairments may read text via braille. Tactile overlays and graphics also may be used to assist the student in accessing content through touch. Refreshable braille is available only for ELA because Nemeth Code is not available via refreshable braille. For math, braille will be presented via embosser; embosser-created braille can be used for ELA also. The type of braille presented to the student (contracted or non-contracted) is set in TIDE, or state’s comparable platform. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
+      </Text>
+      <Selection>
+        <Code>TDS_BT0</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>No Braille</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_BT_EXN</Code>
+        <Order>2</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Uncontracted - Nemeth Math (**ELA items may contain math or technical parts)</Label>
+        </Text>
+      </Selection>      
+      <Selection>
+        <Code>TDS_BT_ECN</Code>
+        <Order>3</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Contracted - Nemeth Math**</Label>
+        </Text>
+      </Selection>       
+      <Selection>
+        <Code>TDS_BT_UXN</Code>
+        <Order>4</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - Nemeth Math**</Label>
+        </Text>
+      </Selection>        
+      <Selection>
+        <Code>TDS_BT_UCN</Code>
+        <Order>5</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - Nemeth Math**</Label>
+        </Text>
+      </Selection>          
+      <Selection>
+        <Code>TDS_BT_UXT</Code>
+        <Order>6</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - UEB Math**</Label>
+        </Text>
+      </Selection>          
+      <Selection>
+        <Code>TDS_BT_UCT</Code>
+        <Order>7</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - UEB Math**</Label>
+        </Text>
+      </Selection> 
+        </SingleSelectResource>
+    
 		<!-- Eliminate Spanish -->		
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>Language</Code>
 			<Selection>
 				<Code>ENU</Code>
-			</Selection>
+			</Selection>			
+			<!--
 			<Selection>
-				<Code>ENU-Braille</Code>
+				<Code>ESN</Code>
 			</Selection>
-			</SingleSelectResource>
-		
+			-->
+		</SingleSelectResource>
 
-    
+
+
+
+      
 		<!-- Change some labels -->
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
@@ -1664,34 +1756,15 @@
 			</Selection>
 		</SingleSelectResource>
 
-		<!-- Eliminate all the glossaries except for English and None -->
+	
+		
+    <!-- "Eliminate" Illustration Glossary by getting rid of all its options. It will still be present so that the columns are consistent, but will not be selectable -->
 		<SingleSelectResource>
-			<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>Translation</Code>
+			<Code>IllustrationGlossary</Code>
 			<Disabled/>
 		</SingleSelectResource>
 		
- 	<!-- Eliminate multiplication and 100s table -->
- 	<SingleSelectResource>
-			<Code>TDS_CalcBasic</Code>
-			<Disabled/>
-		</SingleSelectResource>
-		<SingleSelectResource>
-			<Code>NEA_Calc</Code>
-			<Disabled/>
-		</SingleSelectResource>
- 	<SingleSelectResource>
-			<Code>NEA_MT</Code>
-			<Disabled/>
-		</SingleSelectResource>
- 	<SingleSelectResource>
-			<Code>NEA_NumTbl</Code>
-			<Disabled/>
-		</SingleSelectResource>
-
-		
-		
-		<!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
+    <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
 		<MultiSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>NonEmbeddedDesignatedSupports</Code>
@@ -1727,6 +1800,7 @@
         <Code>NEDS_RA_Stimuli_ESN</Code>
       </Selection>
        -->
+   
 			<Selection>
 				<Code>NEDS_SC_Items</Code>
 			</Selection>
@@ -1768,6 +1842,8 @@
 			<Selection>
 				<Code>NEDS_TransDirs</Code>
 			</Selection>
+			
+			
             <Selection>
                 <Code>NEDS_SimpDirs</Code>
             </Selection>
@@ -1792,7 +1868,25 @@
 				<Code>NEA_STT</Code>
 			</Selection>
 		</MultiSelectResource>
-
+ <!-- Eliminate multiplication and 100s table -->
+ 	<SingleSelectResource>
+			<Code>NEA_Calc</Code>
+			<Disabled/>
+		</SingleSelectResource>
+ 	<SingleSelectResource>
+			<Code>TDS_CalcBasic</Code>
+			<Disabled/>
+		</SingleSelectResource>
+		<SingleSelectResource>
+			<Code>NEA_MT</Code>
+			<Disabled/>
+		</SingleSelectResource>
+ 	<SingleSelectResource>
+			<Code>NEA_NumTbl</Code>
+			<Disabled/>
+		</SingleSelectResource>
+ 
+ 	<!-- Eliminate all the glossaries  -->
 		<SingleSelectResource>
 			<Code>Translation</Code>
 		<Disabled/>
@@ -1801,11 +1895,11 @@
 			<Code>StackedSpanish</Code>
 		<Disabled/>
 		</SingleSelectResource>
-		<SingleSelectResource>
+	
+  <SingleSelectResource>
 			<Code>TransDirs</Code>
 		<Disabled/>
 		</SingleSelectResource>
-
 		
 		  <SingleSelectResource>
 			<Code>NEDS_RA_Items_ESN</Code>
@@ -1820,7 +1914,7 @@
 
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
-	<!-- RESOURCE FAMILY FOR math GRADE 3 -->
+	<!-- RESOURCE FAMILY FOR math GRADE 3 and under-->
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
 
@@ -1838,7 +1932,10 @@
 		<Grade>01</Grade>
 		<Grade>02</Grade>
 		<Grade>03</Grade>
+		
 	
+    
+		
 		<!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
 		<SingleSelectResource>
@@ -1846,12 +1943,6 @@
 			<Code>ClosedCaptioning</Code>
 			<Disabled/>
 		</SingleSelectResource>
-	<SingleSelectResource>
-		<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>TexttoSpeechAcc</Code>
-			<Disabled/>
-		</SingleSelectResource>
-		
 
 		<!-- Eliminate Bilingual Dictionary -->
 		<MultiSelectResource>
@@ -1943,34 +2034,30 @@
 			<Selection>
 				<Code>NEA_AR</Code>
 			</Selection>
-			<!-- 
-			<Selection>
-				<Code>NEA_RA_Stimuli</Code>
-			</Selection>
-			<Selection>
-				<Code>NEA_SC_WritItems</Code>
-			</Selection>
-			-->
 			<Selection>
 				<Code>NEA_STT</Code>
 			</Selection>
 			<Selection>
 				<Code>NEA_Abacus</Code>
 			</Selection>
-			<!-- 
-			<Selection>
-				<Code>NEA_Calc</Code>
-			</Selection>
-			<Selection>
-				<Code>NEA_MT</Code>
-			</Selection>
-             <Selection>
-             <Code>NEA_NumTbl</Code>
-             </Selection>
-			-->
+	
 
 		</MultiSelectResource>
-
+	<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_RA_Stimuli</Code>
+			<Disabled/>
+		</SingleSelectResource>
+	<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_SC_WritItems</Code>
+			<Disabled/>
+		</SingleSelectResource>
+		<SingleSelectResource>
+			<Code>TexttoSpeechAcc</Code>
+			<Disabled/>
+		</SingleSelectResource>
+		
 		
 	</ResourceFamily>
 
@@ -1989,17 +2076,12 @@
 		</Subject>
 		<Grade>04</Grade>
 		<Grade>05</Grade>
-			
+		
 		<!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
 		<SingleSelectResource>
 			<UserSelectionOption> Dropdown </UserSelectionOption>
 			<Code>ClosedCaptioning</Code>
-			<Disabled/>
-		</SingleSelectResource>
-		<SingleSelectResource>
-		<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>TexttoSpeechAcc</Code>
 			<Disabled/>
 		</SingleSelectResource>
 
@@ -2093,25 +2175,12 @@
 			<Selection>
 				<Code>NEA_AR</Code>
 			</Selection>
-			<!-- 
-			<Selection>
-				<Code>NEA_RA_Stimuli</Code>
-			</Selection>
-			<Selection>
-				<Code>NEA_SC_WritItems</Code>
-			</Selection>
-			-->
 			<Selection>
 				<Code>NEA_STT</Code>
 			</Selection>
 			<Selection>
 				<Code>NEA_Abacus</Code>
 			</Selection>
-			<!-- 
-			<Selection>
-				<Code>NEA_Calc</Code>
-			</Selection>
-			-->
 			<Selection>
 				<Code>NEA_MT</Code>
 			</Selection>
@@ -2120,13 +2189,27 @@
             </Selection>
 
 		</MultiSelectResource>
-
+	<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_RA_Stimuli</Code>
+			<Disabled/>
+		</SingleSelectResource>
+	<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_SC_WritItems</Code>
+			<Disabled/>
+		</SingleSelectResource>
+			<SingleSelectResource>
+			<Code>TexttoSpeechAcc</Code>
+			<Disabled/>
+		</SingleSelectResource>
 		
+
 	</ResourceFamily>
 
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
-	<!-- RESOURCE FAMILY FOR math GRADE 6-11 -->
+	<!-- RESOURCE FAMILY FOR math GRADE 6-11 and higher-->
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
 
@@ -2137,7 +2220,6 @@
 			<Name>Mathematics</Name>
 		</Subject>
 		<Grade>06</Grade>
-		<Grade>06</Grade>
 		<Grade>07</Grade>
 		<Grade>08</Grade>
 		<Grade>09</Grade>
@@ -2147,7 +2229,74 @@
 		<Grade>13</Grade>
 		<Grade>PS</Grade>
 		<Grade>UG</Grade>
-			
+					  <SingleSelectResource>
+    <UserSelectionOption> Dropdown </UserSelectionOption>
+      <Code>BrailleType</Code>
+      <Order>5</Order>
+      <ResourceType>Accommodation</ResourceType>
+      <DefaultSelection>TDS_BT0</DefaultSelection>
+      <Text>
+        <Language>eng</Language>
+        <Label>Braille Type (EMBEDDED)*</Label>
+        <Description>Students with visual impairments may read text via braille. Tactile overlays and graphics also may be used to assist the student in accessing content through touch. Refreshable braille is available only for ELA because Nemeth Code is not available via refreshable braille. For math, braille will be presented via embosser; embosser-created braille can be used for ELA also. The type of braille presented to the student (contracted or non-contracted) is set in TIDE, or state’s comparable platform. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
+      </Text>
+      <Selection>
+        <Code>TDS_BT0</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>No Braille</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_BT_EXN</Code>
+        <Order>2</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Uncontracted - Nemeth Math</Label>
+        </Text>
+      </Selection>      
+      <Selection>
+        <Code>TDS_BT_ECN</Code>
+        <Order>3</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE - Contracted - Nemeth Math</Label>
+        </Text>
+      </Selection>       
+      <Selection>
+        <Code>TDS_BT_UXN</Code>
+        <Order>4</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - Nemeth Math</Label>
+        </Text>
+      </Selection>        
+      <Selection>
+        <Code>TDS_BT_UCN</Code>
+        <Order>5</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - Nemeth Math</Label>
+        </Text>
+      </Selection>          
+      <Selection>
+        <Code>TDS_BT_UXT</Code>
+        <Order>6</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Uncontracted - UEB Math</Label>
+        </Text>
+      </Selection>          
+         <Selection>
+        <Code>TDS_BT_UCT</Code>
+        <Order>7</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>UEB - Contracted - UEB Math</Label>
+        </Text>
+      </Selection> 
+    </SingleSelectResource>
 		<!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
 		<SingleSelectResource>
@@ -2155,12 +2304,6 @@
 			<Code>ClosedCaptioning</Code>
 			<Disabled/>
 		</SingleSelectResource>
-	<SingleSelectResource>
-		<UserSelectionOption> Dropdown </UserSelectionOption>
-			<Code>TexttoSpeechAcc</Code>
-			<Disabled/>
-		</SingleSelectResource>
-		
 
 		<!-- Eliminate Bilingual Dictionary -->
 		<MultiSelectResource>
@@ -2252,14 +2395,7 @@
 			<Selection>
 				<Code>NEA_AR</Code>
 			</Selection>
-			<!-- 
-			<Selection>
-				<Code>NEA_RA_Stimuli</Code>
-			</Selection>
-			<Selection>
-				<Code>NEA_SC_WritItems</Code>
-			</Selection>
-			-->
+			
 			<Selection>
 				<Code>NEA_STT</Code>
 			</Selection>
@@ -2275,9 +2411,24 @@
             <Selection>
                 <Code>NEA_NumTbl</Code>
             </Selection>
+
+
 		</MultiSelectResource>
-
-		
+<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_RA_Stimuli</Code>
+			<Disabled/>
+		</SingleSelectResource>
+	<SingleSelectResource>
+			<UserSelectionOption> Dropdown </UserSelectionOption>
+			<Code>NEA_SC_WritItems</Code>
+			<Disabled/>
+		</SingleSelectResource>
+<SingleSelectResource>
+			<Code>TexttoSpeechAcc</Code>
+			<Disabled/>
+		</SingleSelectResource>
+				
 	</ResourceFamily>
-
+	
 </Accessibility>
