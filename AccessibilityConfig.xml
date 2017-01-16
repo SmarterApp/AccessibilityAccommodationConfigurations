@@ -150,7 +150,7 @@
       <Code>BrailleType</Code>
       <Order>5</Order>
       <DefaultSelection>TDS_BT0</DefaultSelection>
-      <ResourceType>Accomodation</ResourceType> 
+      <ResourceType>Accommodation</ResourceType> 
       <Text>
         <Language>eng</Language>
         <Label>Braille Type</Label>
