@@ -11,7 +11,7 @@
 
 		<SingleSelectResource>
 			<Code>AmericanSignLanguage</Code>
-			<Order>1</Order>
+			<Order>9</Order>
 			<DefaultSelection/>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
@@ -40,7 +40,7 @@
 
 		<SingleSelectResource>
 			<Code>ColorContrast</Code>
-			<Order>2</Order>
+			<Order>5</Order>
 			<DefaultSelection>TDS_CC0</DefaultSelection>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
@@ -92,7 +92,7 @@
 
 		<SingleSelectResource>
 			<Code>ClosedCaptioning</Code>
-			<Order>3</Order>
+			<Order>11</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -121,7 +121,7 @@
 
 		<SingleSelectResource>
 			<Code>Language</Code>
-			<Order>4</Order>
+			<Order>8</Order>
 			<DefaultSelection>ENU</DefaultSelection>      
 			<Text>
 				<Language>eng</Language>
@@ -148,7 +148,7 @@
 
     <SingleSelectResource>
       <Code>BrailleType</Code>
-      <Order>5</Order>
+      <Order>10</Order>
       <DefaultSelection>TDS_BT0</DefaultSelection>
       <ResourceType>Accommodation</ResourceType> 
       <Text>
@@ -259,7 +259,7 @@
 
 		<SingleSelectResource>
 			<Code>PermissiveMode</Code>
-			<Order>7</Order>
+			<Order>77</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -286,7 +286,7 @@
 
 		<SingleSelectResource>
 			<Code>PrintOnDemand</Code>
-			<Order>8</Order>
+			<Order>88</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -329,7 +329,7 @@
 
 		<SingleSelectResource>
 			<Code>PrintSize</Code>
-			<Order>9</Order>
+			<Order>99</Order>
 			<DefaultSelection>TDS_PS_L0</DefaultSelection>      
 			<Text>
 				<Language>eng</Language>
@@ -379,7 +379,7 @@
 
 		<SingleSelectResource>
 			<Code>StreamlinedInterface</Code>
-			<Order>10</Order>
+			<Order>12</Order>
 			<DefaultSelection>TDS_SLM0</DefaultSelection>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
@@ -407,7 +407,7 @@
 
 		<SingleSelectResource>
 			<Code>TexttoSpeech</Code>
-			<Order>11</Order>
+			<Order>111</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -454,7 +454,7 @@
 
 		<SingleSelectResource>
 			<Code>Translation</Code>
-			<Order>12</Order>
+			<Order>7</Order>
       <ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
@@ -680,7 +680,7 @@
     
     <SingleSelectResource>
 			<Code>DigitalNotepad</Code>
-			<Order>15</Order>
+			<Order>1</Order>
       <DefaultSelection>TDS_SCNotepad</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -736,7 +736,7 @@
   
     <SingleSelectResource>
 			<Code>EnglishGlossary</Code>
-			<Order>17</Order>
+			<Order>2</Order>
       <DefaultSelection>TDS_WL_Glossary</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -820,7 +820,7 @@
   
     <SingleSelectResource>
 			<Code>Highlighter</Code>
-			<Order>20</Order>
+			<Order>3</Order>
       <DefaultSelection>TDS_Highlight1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
@@ -860,7 +860,7 @@
     
     <SingleSelectResource>
 			<Code>MarkforReview</Code>
-			<Order>22</Order>
+			<Order>4</Order>
       <DefaultSelection>TDS_MfR1</DefaultSelection>
 			<ResourceType>Universal</ResourceType>
 			<Text>
