@@ -287,49 +287,6 @@
     </SingleSelectResource>
 
     <SingleSelectResource>
-      <Code>PrintOnDemand</Code>
-      <Order>88</Order>
-      <ResourceType>Accommodation</ResourceType>
-      <Text>
-        <Language>eng</Language>
-        <Label>Print On Demand</Label>
-        <Description>Some students with disabilities may need paper copies of either passages/stimuli and/or items. A very small percentage of students should need this accommodation. The use of this accommodation may result in the student needing additional time to complete the assessment. Use of this support will likely also require separate setting or extra time. (NON-EMBEDDED)</Description>
-      </Text>
-      <Selection>
-        <Code>TDS_PoD0</Code>
-        <Order>1</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>None</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Stim</Code>
-        <Order>2</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Stimuli</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Item</Code>
-        <Order>3</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Items</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Stim&amp;TDS_PoD_Item</Code>
-        <Order>4</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Stimuli and Items</Label>
-        </Text>
-      </Selection>
-    </SingleSelectResource>
-
-    <SingleSelectResource>
       <Code>PrintSize</Code>
       <Order>99</Order>
       <ResourceType>Universal</ResourceType>
@@ -911,31 +868,6 @@
       </Selection>
     </SingleSelectResource>
 
-    <SingleSelectResource>
-      <Code>IllustrationGlossary</Code>
-      <Order>30</Order>
-      <Text>
-        <Language>eng</Language>
-        <Label>Illustration Glossary</Label>
-      </Text>
-      <Selection>
-        <Code>TDS_ILG0</Code>
-        <Order>1</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Do not show Illustration Glossary</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_ILG1</Code>
-        <Order>2</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Show Illustration Glossary</Label>
-        </Text>
-      </Selection>
-    </SingleSelectResource>
-
     <MultiSelectResource>
       <Code>NonEmbeddedDesignatedSupports</Code>
       <Order>31</Order>
@@ -1294,33 +1226,6 @@
       </Selection>
     </SingleSelectResource>
 
-    <!-- Change some labels -->
-    <SingleSelectResource>
-      <Code>PrintOnDemand</Code>
-      <Selection>
-        <Code>TDS_PoD0</Code>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Stim</Code>
-        <Text>
-          <Language>eng</Language>
-          <!-- <Label>Stimuli</Label> -->
-          <Label>PT Stimuli and CAT Reading Passages</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Item</Code>
-      </Selection>
-      <Selection>
-        <Code>TDS_PoD_Stim&amp;TDS_PoD_Item</Code>
-        <Text>
-          <Language>eng</Language>
-          <!-- <Label>Stimuli and Items</Label> -->
-          <Label>PT Stimuli and CAT Reading Passages and Items</Label>
-        </Text>
-      </Selection>
-    </SingleSelectResource>
-
     <!-- Change some labels-->
     <SingleSelectResource>
       <Code>TexttoSpeech</Code>
@@ -1357,12 +1262,6 @@
       <Selection>
         <Code>TDS_WL_Glossary</Code>
       </Selection>
-    </SingleSelectResource>
-
-    <!-- "Eliminate" Illustration Glossary by getting rid of all its options. It will still be present so that the columns are consistent, but will not be selectable -->
-    <SingleSelectResource>
-      <Code>IllustrationGlossary</Code>
-      <Disabled/>
     </SingleSelectResource>
 
     <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
