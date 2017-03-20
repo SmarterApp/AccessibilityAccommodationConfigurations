@@ -407,53 +407,6 @@
       </Selection>
     </SingleSelectResource>
 
-    <!--<SingleSelectResource>
-			<Code>TexttoSpeech</Code>
-			<Order>111</Order>
-      <ResourceType>Accommodation</ResourceType>
-			<Text>
-				<Language>eng</Language>
-				<Label>Text to Speech</Label>
-				<Description>Students who are struggling readers may need assistance accessing the assessment by having all or portions of the assessment read aloud. This support also may be needed by students with reading-related disabilities, or by students who are blind and do not yet have adequate braille skills. This support will likely be confusing and may impede the performance of students who do not regularly have the support during instruction. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-			</Text>
-			<Selection>
-				<Code>TDS_TTS0</Code>
-				<Order>1</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>None</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Item </Code>
-				<Order>2</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Items Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Stim</Code>
-				<Order>3</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Stimuli Only</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.  Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
-				<Order>4</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Stimuli and Items</Label>
-					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
-				</Text>
-			</Selection>
-		</SingleSelectResource>-->
-
     <SingleSelectResource>
       <Code>Translation</Code>
       <Order>7</Order>
@@ -857,36 +810,7 @@
         <Label>Keyboard Navigation</Label>
         <Description>Navigation throughout text can be accomplished by using a keyboard. (EMBEDDED)</Description>
       </Text>
-
     </SingleSelectResource>
-
-    <!--<SingleSelectResource>
-			<Code>MarkforReview</Code>
-			<Order>4</Order>
-      <DefaultSelection>TDS_MfR1</DefaultSelection>
-			<ResourceType>Universal</ResourceType>
-			<Text>
-				<Language>eng</Language>
-				<Label>Mark for Review</Label>
-        <Description>Allows students to flag items for future review during the assessment. Markings are not saved when the student moves on to the next segment or after a break of more than 20 minutes. (EMBEDDED)</Description>
-			</Text>
-      <Selection>
-				<Code>TDS_MfR1</Code>
-				<Order>1</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Mark for review on</Label>
-				</Text>
-			</Selection>
-      <Selection>
-				<Code>TDS_MfR0</Code>
-				<Order>2</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Mark for review off</Label>
-				</Text>
-			</Selection>
-		</SingleSelectResource>-->
 
     <SingleSelectResource>
       <Code>MathTools</Code>
