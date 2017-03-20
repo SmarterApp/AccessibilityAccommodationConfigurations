@@ -332,6 +332,7 @@
     <SingleSelectResource>
       <Code>PrintSize</Code>
       <Order>99</Order>
+      <ResourceType>Universal</ResourceType>
       <DefaultSelection>TDS_PS_L0</DefaultSelection>
       <Text>
         <Language>eng</Language>
@@ -864,7 +865,6 @@
     <SingleSelectResource>
       <Code>Zoom</Code>
       <Order>27</Order>
-      <ResourceType>Universal</ResourceType>
       <Text>
         <Language>eng</Language>
         <Label>Zoom</Label>
