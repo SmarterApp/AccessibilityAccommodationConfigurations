@@ -1218,6 +1218,12 @@
 			-->
     </SingleSelectResource>
 
+    <!-- Disable Calculator -->
+    <SingleSelectResource>
+      <Code>Calculator</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
     <!-- Select the no braille type as default -->
     <SingleSelectResource>
       <Code>BrailleType</Code>
@@ -1384,6 +1390,12 @@
       <Disabled/>
     </SingleSelectResource>
 
+    <!-- Disable Calculator -->
+    <SingleSelectResource>
+      <Code>Calculator</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
     <!-- Eliminate Bilingual Dictionary -->
     <MultiSelectResource>
       <Code>NonEmbeddedDesignatedSupports</Code>
@@ -1516,6 +1528,12 @@
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
       <Code>ClosedCaptioning</Code>
+      <Disabled/>
+    </SingleSelectResource>
+    
+    <!-- Disable Calculator -->
+    <SingleSelectResource>
+      <Code>Calculator</Code>
       <Disabled/>
     </SingleSelectResource>
 
