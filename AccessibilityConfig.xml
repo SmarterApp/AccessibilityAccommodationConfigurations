@@ -124,6 +124,7 @@
     <SingleSelectResource>
       <Code>Language</Code>
       <Order>8</Order>
+      <ResourceType>DesignatedSupport</ResourceType>
       <DefaultSelection>ENU</DefaultSelection>
       <Text>
         <Language>eng</Language>
@@ -511,7 +512,7 @@
         </Text>
       </Selection>
       <Selection>
-        <Code>TDS_WL_RussianGloss&amp;TDS_WL_Glossar</Code>
+        <Code>TDS_WL_RussianGloss&amp;TDS_WL_Glossary</Code>
         <Order>18</Order>
         <Text>
           <Language>eng</Language>
