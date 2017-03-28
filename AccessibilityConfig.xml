@@ -630,6 +630,22 @@
         <Description>An English dictionary may be available for the full write portion of an ELA performance task, pending contractual discussions. A full write is the second part of a performance task. The use of this universal tool may result in the student needing additional overall time to complete the assessment.</Description>
       </Text>
       <Selection>
+        <Code>TDS_Dict_SD2</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Merriam Webster Elementary Dictionary on</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD3</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Merriam Webster Intermediate Dictionary on</Label>
+        </Text>
+      </Selection>
+      <Selection>
         <Code>TDS_Dict_SD4</Code>
         <Order>1</Order>
         <Text>
@@ -1184,7 +1200,7 @@
 
   <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
-  <!-- RESOURCE FAMILY FOR ELA ALL GRADES -->
+  <!-- RESOURCE FAMILY FOR ELA GRADES 3-5  -->
   <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
 
@@ -1197,13 +1213,391 @@
     <Grade>03</Grade>
     <Grade>04</Grade>
     <Grade>05</Grade>
+
+    <!-- Merriam Webster Elementary Dictionary -->
+    <SingleSelectResource>
+    <Code>EnglishDictionary</Code>
+      <Selection>
+          <Code>TDS_Dict_SD2</Code>
+      </Selection>
+     </SingleSelectResource>
+
+    <!-- Eliminate Spanish -->
+    <SingleSelectResource>
+      <Code>Language</Code>
+      <Selection>
+        <Code>ENU</Code>
+      </Selection>
+      <!--
+			<Selection>
+				<Code>ESN</Code>
+			</Selection>
+			-->
+    </SingleSelectResource>
+
+    <!-- Disable Calculator -->
+    <SingleSelectResource>
+      <Code>Calculator</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
+    <!-- Select the no braille type as default -->
+    <SingleSelectResource>
+      <Code>BrailleType</Code>
+      <Selection>
+        <Code>TDS_BT0</Code>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Change some labels-->
+    <SingleSelectResource>
+      <Code>TexttoSpeech</Code>
+      <Selection>
+        <Code>TDS_TTS0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Item </Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim</Code>
+        <Text>
+          <Language>eng</Language>
+          <!-- <Label>Stimuli Only</Label> -->
+          <Label>PT Stimuli and CAT Reading Passages Only</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
+        <Text>
+          <Language>eng</Language>
+          <!-- <Label>Stimuli and Items</Label> -->
+          <Label>PT Stimuli and CAT Reading Passages and Items</Label>
+        </Text>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Eliminate all the glossaries except for English and None -->
+    <SingleSelectResource>
+      <Code>Translation</Code>
+      <Selection>
+        <Code>TDS_WL0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_WL_Glossary</Code>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedDesignatedSupports</Code>
+      <Selection>
+        <Code>NEDS0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_BD</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CC</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CO</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_Mag</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_NoiseBuf</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli</Code>
+      </Selection>
+      <!--
+      <Selection>
+        <Code>NEDS_RA_Items_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli_ESN</Code>
+      </Selection>
+       -->
+      <Selection>
+        <Code>NEDS_SC_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SS</Code>
+      </Selection>
+      <!-- 
+      <Selection>
+        <Code>NEDS_TArabic</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TCantonese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TFilipino</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TKorean</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TMandarin</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TPunjabi</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TRussianGta</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TSpanish</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TUkrainian</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TVietnamese</Code>
+      </Selection>
+      -->
+      <Selection>
+        <Code>NEDS_TransDirs</Code>
+      </Selection>
+    </MultiSelectResource>
+
+    <MultiSelectResource>
+      <Code>NonEmbeddedAccommodations</Code>
+      <Selection>
+        <Code>NEA0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_AR</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_RA_Stimuli</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_SC_WritItems</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_STT</Code>
+      </Selection>
+    </MultiSelectResource>
+
+  </ResourceFamily>
+
+
+<!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+  <!-- RESOURCE FAMILY FOR ELA GRADES 6-8 -->
+  <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+
+  <ResourceFamily>
+
+    <Subject>
+      <Code>ELA</Code>
+      <Name>English Language Arts</Name>
+    </Subject>
     <Grade>06</Grade>
     <Grade>07</Grade>
     <Grade>08</Grade>
+
+    <!-- Merriam Webster Intermediate Dictionary -->
+    <SingleSelectResource>
+    <Code>EnglishDictionary</Code>
+      <Selection>
+          <Code>TDS_Dict_SD3</Code>
+      </Selection>
+     </SingleSelectResource>
+
+    <!-- Eliminate Spanish -->
+    <SingleSelectResource>
+      <Code>Language</Code>
+      <Selection>
+        <Code>ENU</Code>
+      </Selection>
+      <!--
+			<Selection>
+				<Code>ESN</Code>
+			</Selection>
+			-->
+    </SingleSelectResource>
+
+    <!-- Disable Calculator -->
+    <SingleSelectResource>
+      <Code>Calculator</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
+    <!-- Select the no braille type as default -->
+    <SingleSelectResource>
+      <Code>BrailleType</Code>
+      <Selection>
+        <Code>TDS_BT0</Code>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Change some labels-->
+    <SingleSelectResource>
+      <Code>TexttoSpeech</Code>
+      <Selection>
+        <Code>TDS_TTS0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Item </Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim</Code>
+        <Text>
+          <Language>eng</Language>
+          <!-- <Label>Stimuli Only</Label> -->
+          <Label>PT Stimuli and CAT Reading Passages Only</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
+        <Text>
+          <Language>eng</Language>
+          <!-- <Label>Stimuli and Items</Label> -->
+          <Label>PT Stimuli and CAT Reading Passages and Items</Label>
+        </Text>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Eliminate all the glossaries except for English and None -->
+    <SingleSelectResource>
+      <Code>Translation</Code>
+      <Selection>
+        <Code>TDS_WL0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_WL_Glossary</Code>
+      </Selection>
+    </SingleSelectResource>
+
+    <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedDesignatedSupports</Code>
+      <Selection>
+        <Code>NEDS0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_BD</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CC</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CO</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_Mag</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_NoiseBuf</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli</Code>
+      </Selection>
+      <!--
+      <Selection>
+        <Code>NEDS_RA_Items_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli_ESN</Code>
+      </Selection>
+       -->
+      <Selection>
+        <Code>NEDS_SC_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SS</Code>
+      </Selection>
+      <!-- 
+      <Selection>
+        <Code>NEDS_TArabic</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TCantonese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TFilipino</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TKorean</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TMandarin</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TPunjabi</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TRussianGta</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TSpanish</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TUkrainian</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TVietnamese</Code>
+      </Selection>
+      -->
+      <Selection>
+        <Code>NEDS_TransDirs</Code>
+      </Selection>
+    </MultiSelectResource>
+
+    <MultiSelectResource>
+      <Code>NonEmbeddedAccommodations</Code>
+      <Selection>
+        <Code>NEA0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_AR</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_RA_Stimuli</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_SC_WritItems</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_STT</Code>
+      </Selection>
+    </MultiSelectResource>
+
+  </ResourceFamily>
+
+  <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+  <!-- RESOURCE FAMILY FOR ELA GRADES 9-11 -->
+  <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+
+  <ResourceFamily>
+
+    <Subject>
+      <Code>ELA</Code>
+      <Name>English Language Arts</Name>
+    </Subject>
     <Grade>09</Grade>
     <Grade>10</Grade>
     <Grade>11</Grade>
-    <Grade>12</Grade>
+
+        <!-- Merriam Webster School Dictionary -->
+    <SingleSelectResource>
+    <Code>EnglishDictionary</Code>
+      <Selection>
+          <Code>TDS_Dict_SD4</Code>
+      </Selection>
+     </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
     <SingleSelectResource>
