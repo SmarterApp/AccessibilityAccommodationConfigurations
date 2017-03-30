@@ -579,7 +579,7 @@
         <Order>1</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Calculator on</Label>
+          <Label>Basic Calculator</Label>
         </Text>
       </Selection>
       <Selection>
@@ -587,7 +587,23 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Calculator off</Label>
+          <Label>Off</Label>
+        </Text>
+      </Selection>
+       <Selection>
+        <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+        <Order>3</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Scientific, Graphing &amp; Regression Calculator</Label>
+        </Text>
+      </Selection>
+       <Selection>
+        <Code>TDS_CalcSciInv</Code>
+        <Order>4</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Scientific Calculator</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -659,7 +675,7 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Merriam Websters School Dictionary off</Label>
+          <Label>Off</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -872,7 +888,7 @@
         <Order>1</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Merriam Websters Intermediate Thesaurus on</Label>
+          <Label>On</Label>
         </Text>
       </Selection>
       <Selection>
@@ -880,7 +896,7 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Merriam Websters Intermediate Thesaurus off</Label>
+          <Label>Off</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -1218,8 +1234,20 @@
     <!-- Merriam Webster Elementary Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
+    <DefaultSelection>TDS_Dict_SD2</DefaultSelection>
         <Selection>
             <Code>TDS_Dict_SD2</Code>
+            <Text>
+              <Label>On</Label>
+            </Text>
+        </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD3</Code>
+            <Hidden/>
+        </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD4</Code>
+            <Hidden/>
         </Selection>
         <Selection>
           <Code>TDS_Dict0</Code>
@@ -1242,6 +1270,7 @@
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
+      <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
 
@@ -1410,11 +1439,23 @@
     <!-- Merriam Webster Intermediate Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
+    <DefaultSelection>TDS_Dict_SD3</DefaultSelection>
       <Selection>
           <Code>TDS_Dict_SD3</Code>
+          <Text>
+            <Label>On</Label>
+          </Text>
       </Selection>
        <Selection>
           <Code>TDS_Dict0</Code>
+        </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD2</Code>
+            <Hidden/>
+         </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD4</Code>
+            <Hidden/>
         </Selection>
      </SingleSelectResource>
 
@@ -1434,6 +1475,7 @@
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
+      <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
 
@@ -1601,9 +1643,21 @@
         <!-- Merriam Webster School Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
+    <DefaultSelection>TDS_Dict_SD4</DefaultSelection>
       <Selection>
           <Code>TDS_Dict_SD4</Code>
+          <Text>
+            <Label>On</Label>
+          </Text>
       </Selection>
+           <Selection>
+            <Code>TDS_Dict_SD2</Code>
+            <Hidden/>
+        </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD3</Code>
+            <Hidden/>
+        </Selection>
        <Selection>
           <Code>TDS_Dict0</Code>
         </Selection>
@@ -1625,6 +1679,7 @@
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
+      <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
 
@@ -1794,9 +1849,16 @@
       <Disabled/>
     </SingleSelectResource>
 
+    <SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
+        <Disabled/>
+    </SingleSelectResource>
+
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
+      <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
 
@@ -1935,9 +1997,16 @@
       <Disabled/>
     </SingleSelectResource>
     
+    <SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
+        <Disabled/>
+    </SingleSelectResource>
+
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
+      <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
 
@@ -2055,7 +2124,7 @@
 
   <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
-  <!-- RESOURCE FAMILY FOR math GRADE 6-11 -->
+  <!-- RESOURCE FAMILY FOR math GRADE 6 -->
   <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
 
@@ -2066,8 +2135,327 @@
       <Name>Mathematics</Name>
     </Subject>
     <Grade>06</Grade>
+
+    <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
+         so that the columns are consistent, but will not be selectable -->
+    <SingleSelectResource>
+      <Code>ClosedCaptioning</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
+    <SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
+        <Disabled/>
+    </SingleSelectResource>
+
+    <SingleSelectResource>
+        <Code>Calculator</Code>
+        <DefaultSelection>TDS_CalcBasic</DefaultSelection>
+        <Selection>
+          <Code>TDS_CalcBasic</Code>
+          <Text>
+              <Label>On</Label>
+          </Text>
+        </Selection>
+        <Selection>
+          <Code>TDS_Calc0</Code>
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+          <Hidden />
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv</Code>
+         <Hidden />
+        </Selection>
+    </SingleSelectResource>
+
+
+    <!-- Eliminate Bilingual Dictionary -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedDesignatedSupports</Code>
+      <Selection>
+        <Code>NEDS0</Code>
+      </Selection>
+      <!-- 
+			<Selection>
+				<Code>NEDS_BD</Code>
+			</Selection>
+			-->
+      <Selection>
+        <Code>NEDS_CC</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CO</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_Mag</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_NoiseBuf</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SC_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SS</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TArabic</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TCantonese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TFilipino</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TKorean</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TMandarin</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TPunjabi</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TRussianGta</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TSpanish</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TUkrainian</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TVietnamese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TransDirs</Code>
+      </Selection>
+    </MultiSelectResource>
+
+    <!-- Eliminate several options -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedAccommodations</Code>
+      <Selection>
+        <Code>NEA0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_AR</Code>
+      </Selection>
+      <!-- 
+			<Selection>
+				<Code>NEA_RA_Stimuli</Code>
+			</Selection>
+			<Selection>
+				<Code>NEA_SC_WritItems</Code>
+			</Selection>
+			-->
+      <Selection>
+        <Code>NEA_STT</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_Abacus</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_Calc</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_MT</Code>
+      </Selection>
+
+    </MultiSelectResource>
+
+  </ResourceFamily>
+
+   <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+  <!-- RESOURCE FAMILY FOR math GRADE 7-8 -->
+  <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+
+  <ResourceFamily>
+
+    <Subject>
+      <Code>MATH</Code>
+      <Name>Mathematics</Name>
+    </Subject>
     <Grade>07</Grade>
     <Grade>08</Grade>
+
+    <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
+         so that the columns are consistent, but will not be selectable -->
+    <SingleSelectResource>
+      <Code>ClosedCaptioning</Code>
+      <Disabled/>
+    </SingleSelectResource>
+
+    <SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
+        <Disabled/>
+    </SingleSelectResource>
+
+ <SingleSelectResource>
+      <Code>Calculator</Code>
+        <DefaultSelection>TDS_CalcSciInv</DefaultSelection>
+        <Selection>
+          <Code>TDS_CalcBasic</Code>
+          <Hidden />
+        </Selection>
+        <Selection>
+          <Code>TDS_Calc0</Code>
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+          <Hidden />
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv</Code>
+          <Text>
+              <Label>On</Label>
+          </Text>
+        </Selection>
+    </SingleSelectResource>
+
+    
+
+    <!-- Eliminate Bilingual Dictionary -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedDesignatedSupports</Code>
+      <Selection>
+        <Code>NEDS0</Code>
+      </Selection>
+      <!-- 
+			<Selection>
+				<Code>NEDS_BD</Code>
+			</Selection>
+			-->
+      <Selection>
+        <Code>NEDS_CC</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_CO</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_Mag</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_NoiseBuf</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Items_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_RA_Stimuli_ESN</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SC_Items</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_SS</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TArabic</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TCantonese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TFilipino</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TKorean</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TMandarin</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TPunjabi</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TRussianGta</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TSpanish</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TUkrainian</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TVietnamese</Code>
+      </Selection>
+      <Selection>
+        <Code>NEDS_TransDirs</Code>
+      </Selection>
+    </MultiSelectResource>
+
+    <!-- Eliminate several options -->
+    <MultiSelectResource>
+      <Code>NonEmbeddedAccommodations</Code>
+      <Selection>
+        <Code>NEA0</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_AR</Code>
+      </Selection>
+      <!-- 
+			<Selection>
+				<Code>NEA_RA_Stimuli</Code>
+			</Selection>
+			<Selection>
+				<Code>NEA_SC_WritItems</Code>
+			</Selection>
+			-->
+      <Selection>
+        <Code>NEA_STT</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_Abacus</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_Calc</Code>
+      </Selection>
+      <Selection>
+        <Code>NEA_MT</Code>
+      </Selection>
+
+    </MultiSelectResource>
+
+  </ResourceFamily>
+
+   <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+  <!-- RESOURCE FAMILY FOR math GRADE 9-11 -->
+  <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
+
+  <ResourceFamily>
+
+    <Subject>
+      <Code>MATH</Code>
+      <Name>Mathematics</Name>
+    </Subject>
     <Grade>09</Grade>
     <Grade>10</Grade>
     <Grade>11</Grade>
@@ -2077,6 +2465,35 @@
     <SingleSelectResource>
       <Code>ClosedCaptioning</Code>
       <Disabled/>
+    </SingleSelectResource>
+
+    <SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
+        <Disabled/>
+    </SingleSelectResource>
+
+
+    <SingleSelectResource>
+      <Code>Calculator</Code>
+      <DefaultSelection>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</DefaultSelection>
+        <Selection>
+          <Code>TDS_CalcBasic</Code>
+          <Hidden />
+        </Selection>
+        <Selection>
+          <Code>TDS_Calc0</Code>
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+          <Text>
+              <Label>On</Label>
+          </Text>
+        </Selection>
+        <Selection>
+          <Code>TDS_CalcSciInv</Code>
+          <Hidden />
+        </Selection>
     </SingleSelectResource>
 
     <!-- Eliminate Bilingual Dictionary -->
