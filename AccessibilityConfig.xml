@@ -1218,9 +1218,12 @@
     <!-- Merriam Webster Elementary Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
-      <Selection>
-          <Code>TDS_Dict_SD2</Code>
-      </Selection>
+        <Selection>
+            <Code>TDS_Dict_SD2</Code>
+        </Selection>
+        <Selection>
+          <Code>TDS_Dict0</Code>
+        </selection>
      </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
@@ -1410,6 +1413,9 @@
       <Selection>
           <Code>TDS_Dict_SD3</Code>
       </Selection>
+       <Selection>
+          <Code>TDS_Dict0</Code>
+        </selection>
      </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
@@ -1598,6 +1604,9 @@
       <Selection>
           <Code>TDS_Dict_SD4</Code>
       </Selection>
+       <Selection>
+          <Code>TDS_Dict0</Code>
+        </selection>
      </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
