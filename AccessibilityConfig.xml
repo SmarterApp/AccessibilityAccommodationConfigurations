@@ -376,14 +376,6 @@
         <Description>Students who have limited English language skills (whether or not designated as ELLs or ELLs with disabilities) can use the translation glossary for specific items. The use of this support may result in the student needing additional overall time to complete the assessment. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
       </Text>
       <Selection>
-        <Code>TDS_WL_Glossary</Code>
-        <Order>1</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>English</Label>
-        </Text>
-      </Selection>
-      <Selection>
         <Code>TDS_WL_ArabicGloss</Code>
         <Order>2</Order>
         <Text>
@@ -464,88 +456,8 @@
         </Text>
       </Selection>
       <Selection>
-        <Code>TDS_WL_ArabicGloss&amp;TDS_WL_Glossary</Code>
-        <Order>12</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Arabic &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_CantoneseGloss&amp;TDS_WL_Glossary</Code>
-        <Order>13</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Cantonese &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_ESNGlossary&amp;TDS_WL_Glossary</Code>
-        <Order>14</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Spanish &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_KoreanGloss&amp;TDS_WL_Glossary</Code>
-        <Order>15</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Korean &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_MandarinGloss&amp;TDS_WL_Glossary</Code>
-        <Order>16</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Mandarin &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_PunjabiGloss&amp;TDS_WL_Glossary</Code>
-        <Order>17</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Punjabi &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_RussianGloss&amp;TDS_WL_Glossary</Code>
-        <Order>18</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Russian &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_TagalGloss&amp;TDS_WL_Glossary</Code>
-        <Order>19</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Filipino (Ilokano and Tagalog) and English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_UkrainianGloss&amp;TDS_WL_Glossary</Code>
-        <Order>20</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Ukrainian &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_VietnameseGloss&amp;TDS_WL_Glossary</Code>
-        <Order>21</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Vietnamese &amp; English</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL0</Code>
-        <Order>22</Order>
+        <Code>DISABLED</Code>
+        <Order>1</Order>
         <Text>
           <Language>eng</Language>
           <Label>None</Label>
@@ -1312,12 +1224,7 @@
     <!-- Eliminate all the glossaries except for English and None -->
     <SingleSelectResource>
       <Code>Translation</Code>
-      <Selection>
-        <Code>TDS_WL0</Code>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_Glossary</Code>
-      </Selection>
+      <Disabled/>
     </SingleSelectResource>
 
     <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
@@ -1517,12 +1424,7 @@
     <!-- Eliminate all the glossaries except for English and None -->
     <SingleSelectResource>
       <Code>Translation</Code>
-      <Selection>
-        <Code>TDS_WL0</Code>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_Glossary</Code>
-      </Selection>
+      <Disabled/>
     </SingleSelectResource>
 
     <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
@@ -1721,12 +1623,7 @@
     <!-- Eliminate all the glossaries except for English and None -->
     <SingleSelectResource>
       <Code>Translation</Code>
-      <Selection>
-        <Code>TDS_WL0</Code>
-      </Selection>
-      <Selection>
-        <Code>TDS_WL_Glossary</Code>
-      </Selection>
+      <Disabled/>
     </SingleSelectResource>
 
     <!-- Eliminate two Read Aloud Spanish codes and all glossaries -->
