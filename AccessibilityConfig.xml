@@ -369,6 +369,7 @@
     <SingleSelectResource>
       <Code>Translation</Code>
       <Order>7</Order>
+      <DefaultSelection>DISABLED</DefaultSelection>
       <ResourceType>DesignatedSupport</ResourceType>
       <Text>
         <Language>eng</Language>
