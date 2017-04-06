@@ -168,67 +168,27 @@
         </Text>
       </Selection>
       <Selection>
-        <Code>TDS_BT_EXN</Code>
+        <Code>TDS_BT_ECL</Code>
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>EBAE - Uncontracted - Nemeth Math</Label>
+          <Label>EBAE Contracted</Label>
+        </Text>
+      </Selection>
+         <Selection>
+        <Code>TDS_BT_EXL</Code>
+        <Order>3</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>EBAE Uncontracted</Label>
         </Text>
       </Selection>
       <Selection>
         <Code>TDS_BT_ECN</Code>
-        <Order>3</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>EBAE - Contracted - Nemeth Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_EXT</Code>
         <Order>4</Order>
         <Text>
           <Language>eng</Language>
-          <Label>EBAE - Uncontracted - UEB Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_ECT</Code>
-        <Order>5</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>EBAE - Contracted - UEB Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_UXN</Code>
-        <Order>6</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>UEB - Uncontracted - Nemeth Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_UCN</Code>
-        <Order>7</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>UEB - Contracted - Nemeth Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_UXT</Code>
-        <Order>8</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>UEB - Uncontracted - UEB Math</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_BT_UCT</Code>
-        <Order>9</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>UEB - Contracted - UEB Math</Label>
+          <Label>EBAE with Nemeth Contracted</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -256,33 +216,6 @@
         <Text>
           <Language>eng</Language>
           <Label>Masking Available</Label>
-        </Text>
-      </Selection>
-    </SingleSelectResource>
-
-    <SingleSelectResource>
-      <Code>PermissiveMode</Code>
-      <Order>77</Order>
-      <ResourceType>Accommodation</ResourceType>
-      <Text>
-        <Language>eng</Language>
-        <Label>Permissive Mode</Label>
-        <Description>Allows assistive technology software such as screen readers, magnifiers, etc. to be run on the computer. When disabled, only the secure web browser is allowed to run.</Description>
-      </Text>
-      <Selection>
-        <Code>TDS_PM0</Code>
-        <Order>1</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Permissive Mode Disabled</Label>
-        </Text>
-      </Selection>
-      <Selection>
-        <Code>TDS_PM1</Code>
-        <Order>2</Order>
-        <Text>
-          <Language>eng</Language>
-          <Label>Permissive Mode Enabled</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -1187,14 +1120,6 @@
       <Disabled/>
     </SingleSelectResource>
 
-    <!-- Select the no braille type as default -->
-    <SingleSelectResource>
-      <Code>BrailleType</Code>
-      <Selection>
-        <Code>TDS_BT0</Code>
-      </Selection>
-    </SingleSelectResource>
-
     <!-- Change some labels-->
     <SingleSelectResource>
       <Code>TexttoSpeech</Code>
@@ -1387,13 +1312,6 @@
       <Disabled/>
     </SingleSelectResource>
 
-    <!-- Select the no braille type as default -->
-    <SingleSelectResource>
-      <Code>BrailleType</Code>
-      <Selection>
-        <Code>TDS_BT0</Code>
-      </Selection>
-    </SingleSelectResource>
 
     <!-- Change some labels-->
     <SingleSelectResource>
@@ -1584,14 +1502,6 @@
       <Code>Calculator</Code>
       <DefaultSelection>TDS_Calc0</DefaultSelection>
       <Disabled/>
-    </SingleSelectResource>
-
-    <!-- Select the no braille type as default -->
-    <SingleSelectResource>
-      <Code>BrailleType</Code>
-      <Selection>
-        <Code>TDS_BT0</Code>
-      </Selection>
     </SingleSelectResource>
 
     <!-- Change some labels-->
