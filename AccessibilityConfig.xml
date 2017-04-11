@@ -91,7 +91,7 @@
     </SingleSelectResource>
 
     <SingleSelectResource>
-      <Code>ClosedCaptioning</Code>
+      <Code></Code>
       <Order>11</Order>
       <ResourceType>Accommodation</ResourceType>
       <Text>
@@ -143,7 +143,7 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Spanish (Stacked Translation)</Label>
+          <Label>Spanish &amp; English</Label>
           <Description>For students whose primary language is not English and who use dual language supports in the classroom, use of the stacked (dual language) translation may be appropriate. Students participate in the assessment regardless of the language. This support will increase reading load and cognitive load. The use of this support may result in the student needing additional overall time to complete the assessment. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
         </Text>
       </Selection>
