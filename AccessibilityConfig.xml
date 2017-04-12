@@ -91,7 +91,7 @@
     </SingleSelectResource>
 
     <SingleSelectResource>
-      <Code></Code>
+      <Code>ClosedCaptioning</Code>
       <Order>11</Order>
       <ResourceType>Accommodation</ResourceType>
       <Text>
@@ -107,7 +107,7 @@
         <Order>1</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Closed Captioning Not Available</Label>
+          <Label>Closed Captioning Off</Label>
         </Text>
       </Selection>
       <Selection>
@@ -115,7 +115,7 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Closed Captioning Available</Label>
+          <Label>Closed Captioning On</Label>
           <Message>ELA PTs do not have listening stimuli</Message>
         </Text>
       </Selection>
