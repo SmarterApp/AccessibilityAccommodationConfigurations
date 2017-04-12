@@ -188,7 +188,7 @@
         <Order>4</Order>
         <Text>
           <Language>eng</Language>
-          <Label>EBAE with Nemeth Contracted</Label>
+          <Label>EBAE contracted with Nemeth</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -1512,7 +1512,7 @@
           <Code>TDS_Dict0</Code>
         </Selection>
      </SingleSelectResource>
-     
+
     <!-- Disable Braille Options -->
     <SingleSelectResource>
       <Code>BrailleType</Code>
