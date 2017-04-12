@@ -1113,6 +1113,21 @@
 			-->
     </SingleSelectResource>
 
+    <!-- Disable Braille Options -->
+    <SingleSelectResource>
+      <Code>BrailleType</Code>
+      <Selection>
+          <Code>TDS_BT0</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_ECL</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_EXL</Code>
+      </Selection>
+  </SingleSelectResource>
+
+
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
@@ -1305,6 +1320,20 @@
 			-->
     </SingleSelectResource>
 
+    <!-- Disable Braille Options -->
+    <SingleSelectResource>
+      <Code>BrailleType</Code>
+      <Selection>
+          <Code>TDS_BT0</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_ECL</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_EXL</Code>
+      </Selection>
+  </SingleSelectResource>
+
     <!-- Disable Calculator -->
     <SingleSelectResource>
       <Code>Calculator</Code>
@@ -1483,6 +1512,20 @@
           <Code>TDS_Dict0</Code>
         </Selection>
      </SingleSelectResource>
+     
+    <!-- Disable Braille Options -->
+    <SingleSelectResource>
+      <Code>BrailleType</Code>
+      <Selection>
+          <Code>TDS_BT0</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_ECL</Code>
+      </Selection>
+      <Selection>
+          <Code>TDS_BT_EXL</Code>
+      </Selection>
+  </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
     <SingleSelectResource>
