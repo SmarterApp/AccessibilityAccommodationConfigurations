@@ -24,7 +24,7 @@
         <Order>1</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Do not show ASL videos</Label>
+          <Label>ASL Videos off</Label>
         </Text>
       </Selection>
       <Selection>
@@ -32,7 +32,7 @@
         <Order>2</Order>
         <Text>
           <Language>eng</Language>
-          <Label>Show ASL videos</Label>
+          <Label>ASL Videos on</Label>
           <Message>ELA PTs do not have listening stimuli</Message>
         </Text>
       </Selection>
@@ -188,7 +188,7 @@
         <Order>4</Order>
         <Text>
           <Language>eng</Language>
-          <Label>EBAE contracted with Nemeth</Label>
+          <Label>EBAE Contracted with Nemeth</Label>
         </Text>
       </Selection>
     </SingleSelectResource>
@@ -234,7 +234,7 @@
         <Order>1</Order>
         <Text>
           <Language>eng</Language>
-          <Label>No default zoom applied</Label>
+          <Label>No Default Zoom Applied</Label>
         </Text>
       </Selection>
       <Selection>
