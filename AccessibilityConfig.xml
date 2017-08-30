@@ -298,7 +298,7 @@
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>No Print On Demand applied</Label>
 				</Text>
 			</Selection>
 			<Selection>
@@ -419,7 +419,7 @@
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>Text to Speech not applied</Label>
 					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment).<ul><li>For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured.</li><li>For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan.</li></ul> Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
@@ -638,7 +638,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>Breaks</Code>
 			<Order>13</Order>      
@@ -649,7 +649,7 @@
         <Description>The number of items per session can be flexibly defined based on the student’s need. Breaks of more than 20 minutes will prevent the student from returning to items already attempted by the student. There is no limit on the number of breaks that a student might be given. The use of this universal tool may result in the student needing additional overall time to complete the assessment.</Description>
 			</Text>			
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>Calculator</Code>
 			<Order>14</Order>
@@ -677,7 +677,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>DigitalNotepad</Code>
 			<Order>15</Order>
@@ -705,7 +705,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>EnglishDictionary</Code>
 			<Order>16</Order>
@@ -733,7 +733,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>EnglishGlossary</Code>
 			<Order>17</Order>
@@ -761,7 +761,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>ExpandablePassages</Code>
 			<Order>18</Order>
@@ -789,7 +789,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>GlobalNotes</Code>
 			<Order>19</Order>
@@ -817,7 +817,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>Highlighter</Code>
 			<Order>20</Order>
@@ -845,7 +845,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>KeyboardNavigation</Code>
 			<Order>21</Order>
@@ -857,7 +857,7 @@
 			</Text>			
       
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>MarkforReview</Code>
 			<Order>22</Order>
@@ -885,7 +885,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>MathTools</Code>
 			<Order>23</Order>      
@@ -896,7 +896,7 @@
         <Description>These digital tools (i.e., embedded ruler, embedded protractor) are used for measurements related to math items. They are available only with the specific items for which the Smarter Balanced Item Specifications indicate that one or more of these tools would be appropriate. (EMBEDDED)</Description>
 			</Text>			      
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>SpellCheck</Code>
 			<Order>24</Order>
@@ -907,7 +907,7 @@
         <Description>Writing tool for checking the spelling of words in student-generated responses. Spell check only gives an indication that a word is misspelled; it does not provide the correct spelling. This tool is available only with the specific items for which the Smarter Balanced Item Specifications indicated that it would be appropriate. Spell check is bundled with other embedded writing tools for all performance task full writes (planning, drafting, revising, and editing). A full write is the second part of a performance task. (EMBEDDED)</Description>
 			</Text>			
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>Strikethrough</Code>
 			<Order>25</Order>
@@ -935,7 +935,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>WritingTools</Code>
 			<Order>26</Order>
@@ -963,7 +963,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>Zoom</Code>
 			<Order>27</Order>
@@ -974,7 +974,7 @@
         <Description>A tool for making text or other graphics in a window or frame appear larger on the screen. The default font size for all tests is 14 pt. The student can make text nd graphics larger by clicking the Zoom In button. The student can click the Zoom Out button to return to the default or smaller print size. When using the zoom feature, the student only changes the size of text and graphics on the current screen. To increase the default print size of the entire test (from 1.5X to 3.0X default size), the print size must be set for the student in the Administration and Registration Tool (ART), or member’s comparable platform), or set by the test administrator prior to the start of the test. This is the only feature that test administrators can set. The use of this universal tool may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
 			</Text>			      
 		</SingleSelectResource>
-  
+
     <SingleSelectResource>
 			<Code>ScratchPaper</Code>
 			<Order>28</Order>
@@ -985,7 +985,7 @@
         <Description>Scratch paper to make notes, write computations, or record responses may be made available. Only plain paper or lined paper is appropriate for ELA. Graph paper is required beginning in sixth grade and can be used on all math assessments. A student can use an assistive technology device for scratch paper as long as the device is consistent with the child’s IEP and acceptable to the member. CAT: All scratch paper must be collected and securely destroyed at the end of each CAT assessment session to maintain test security. Performance Tasks: For mathematics and ELA performance tasks, if a student needs to take the performance task in more than one session, scratch paper may be collected at the end of each session, securely stored, and made available to the student at the next performance task testing session. Once the student completes the performance task, the scratch paper must be collected and securely destroyed to maintain test security.</Description>
 			</Text>			
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
 			<Code>Thesaurus</Code>
 			<Order>29</Order>
@@ -1013,7 +1013,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-    
+
     <SingleSelectResource>
       <Code>IllustrationGlossary</Code>
       <Order>30</Order>
@@ -1038,7 +1038,7 @@
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-      
+
 		<MultiSelectResource>
 			<Code>NonEmbeddedDesignatedSupports</Code>
 			<Order>31</Order>
@@ -1054,7 +1054,7 @@
 				<MutuallyExclusive/>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>Non-Embedded Designated Supports not selected</Label>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1265,7 +1265,7 @@
 				<MutuallyExclusive/>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>Non-Embedded Accommodations not selected</Label>
 				</Text>
 			</Selection>
 			<Selection>
