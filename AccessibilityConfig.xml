@@ -298,7 +298,7 @@
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>No Print On Demand applied</Label>
 				</Text>
 			</Selection>
 			<Selection>
@@ -419,7 +419,7 @@
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>No Text to Speech applied</Label>
 					<Description>This accommodation is appropriate for a very small number of students (estimated to be approximately 1–2% of students with disabilities participating in a general assessment). For students in grades 3–5, text-to- speech will not be an available accommodation. Content experts agree that this accommodation should not be provided during these grades because it would compromise the construct being measured. For students in grades 6–8 and 11, text- to-speech is available as an accommodation for students whose need is documented in an IEP or 504 plan. Reports can be run to indicate the percent of students who had access to text-to-speech on reading test passages. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 				</Text>
 			</Selection>
@@ -634,7 +634,7 @@
 				<Order>22</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>No language translation applied</Label>
 				</Text>
 			</Selection>
 		</SingleSelectResource>
@@ -1054,7 +1054,7 @@
 				<MutuallyExclusive/>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>Non-Embedded Designated Supports not selected</Label>
 				</Text>
 			</Selection>
 			<Selection>
@@ -1265,7 +1265,7 @@
 				<MutuallyExclusive/>
 				<Text>
 					<Language>eng</Language>
-					<Label>None</Label>
+					<Label>Non-Embedded Accommodations not selected</Label>
 				</Text>
 			</Selection>
 			<Selection>
