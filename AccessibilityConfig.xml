@@ -1058,6 +1058,49 @@
         <Label>Other</Label>
       </Text>
     </EditResource>
+	  
+	<SingleSelectResource>
+		<Code>TextToSpeech</Code>
+		<Order>34</Order>
+		<DefaultSelection>TDS_TTS0</DefaultSelection>
+		<ResourceType>Accommodation</ResourceType>
+		<Text>
+			<Language>eng</Language>
+			<Label>Text to speech</Label>
+		</Text>
+		<Selection>
+			<Code>TDS_TTS0</Code>
+			<Order>1</Order>
+			<Text>
+				<Language>eng</Language>
+				<Label>No text-to-speech available</Label>
+			</Text>
+		</Selection>
+		<Selection>
+			<Code>TDS_TTS_Item</Code>
+			<Order>1</Order>
+			<Text>
+				<Language>eng</Language>
+				<Label>Text-to-speech available for items</Label>
+			</Text>
+		</Selection>
+		<Selection>
+			<Code>TDS_TTS_Stim</Code>
+			<Order>1</Order>
+			<Text>
+				<Language>eng</Language>
+				<Label>Text-to-speech available for stimuli</Label>
+			</Text>
+		</Selection>
+		<Selection>
+			<Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
+			<Order>1</Order>
+			<Text>
+				<Language>eng</Language>
+				<Label>Text-to-speech available for stimuli and items</Label>
+			</Text>
+		</Selection>
+	</SingleSelectResource>
 
   </MasterResourceFamily>
 
