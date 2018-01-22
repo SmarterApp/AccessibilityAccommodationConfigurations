@@ -234,7 +234,7 @@
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Permissive Mode Disabled</Label>
+					<Label>Off</Label>
 				</Text>
 			</Selection>
 			<Selection>
@@ -242,11 +242,11 @@
 				<Order>2</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Permissive Mode Enabled</Label>
+					<Label>On</Label>
 				</Text>
 			</Selection>
 		</SingleSelectResource>
-
+    
     <SingleSelectResource>
       <Code>PrintSize</Code>
       <Order>99</Order>
@@ -1100,7 +1100,7 @@
 			<Order>1</Order>
 			<Text>
 				<Language>eng</Language>
-				<Label>No text-to-speech available</Label>
+				<Label>Off</Label>
 			</Text>
 		</Selection>
 		<Selection>
@@ -1108,7 +1108,7 @@
 			<Order>1</Order>
 			<Text>
 				<Language>eng</Language>
-				<Label>Text-to-speech available for items</Label>
+				<Label>Items</Label>
 			</Text>
 		</Selection>
 		<Selection>
@@ -1116,7 +1116,7 @@
 			<Order>1</Order>
 			<Text>
 				<Language>eng</Language>
-				<Label>Text-to-speech available for stimuli</Label>
+				<Label>Stimuli</Label>
 			</Text>
 		</Selection>
 		<Selection>
@@ -1124,7 +1124,7 @@
 			<Order>1</Order>
 			<Text>
 				<Language>eng</Language>
-				<Label>Text-to-speech available for stimuli and items</Label>
+				<Label>Items &amp; Stimuli</Label>
 			</Text>
 		</Selection>
 	</SingleSelectResource>
@@ -1147,6 +1147,13 @@
     <Grade>04</Grade>
     <Grade>05</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+    
     <!-- Merriam Webster Elementary Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
@@ -1354,6 +1361,13 @@
     <Grade>07</Grade>
     <Grade>08</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+    
     <!-- Merriam Webster Intermediate Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
@@ -1560,6 +1574,13 @@
     <Grade>10</Grade>
     <Grade>11</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+
         <!-- Merriam Webster School Dictionary -->
     <SingleSelectResource>
     <Code>EnglishDictionary</Code>
@@ -1763,6 +1784,13 @@
     </Subject>
     <Grade>03</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+    
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -1911,6 +1939,13 @@
     <Grade>04</Grade>
     <Grade>05</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+    
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -2057,6 +2092,13 @@
     </Subject>
     <Grade>06</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
+    
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -2218,6 +2260,13 @@
     <Grade>07</Grade>
     <Grade>08</Grade>
 
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+
+    </SingleSelectResource>
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -2380,6 +2429,13 @@
     <Grade>09</Grade>
     <Grade>10</Grade>
     <Grade>11</Grade>
+
+    <!-- Disable Permissive Mode-->
+    <SingleSelectResource>
+      <Code>PermissiveMode</Code>
+      <DefaultSelection>TDS_PM0</DefaultSelection>
+      <Disabled/>
+    </SingleSelectResource>
 
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
