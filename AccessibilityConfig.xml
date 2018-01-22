@@ -222,7 +222,7 @@
 
     <SingleSelectResource>
 			<Code>PermissiveMode</Code>
-			<Order>7</Order>
+			<Order>99</Order>
       <ResourceType>Accommodation</ResourceType>
 			<Text>
 				<Language>eng</Language>
