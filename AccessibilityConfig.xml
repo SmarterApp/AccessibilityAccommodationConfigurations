@@ -221,6 +221,33 @@
     </SingleSelectResource>
 
     <SingleSelectResource>
+			<Code>PermissiveMode</Code>
+			<Order>7</Order>
+      <ResourceType>Accommodation</ResourceType>
+			<Text>
+				<Language>eng</Language>
+				<Label>Permissive Mode</Label>
+        <Description>Allows assistive technology software such as screen readers, magnifiers, etc. to be run on the computer. When disabled, only the secure web browser is allowed to run.</Description>
+			</Text>
+			<Selection>
+				<Code>TDS_PM0</Code>
+				<Order>1</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Permissive Mode Disabled</Label>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_PM1</Code>
+				<Order>2</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Permissive Mode Enabled</Label>
+				</Text>
+			</Selection>
+		</SingleSelectResource>
+
+    <SingleSelectResource>
       <Code>PrintSize</Code>
       <Order>99</Order>
       <ResourceType>Universal</ResourceType>
