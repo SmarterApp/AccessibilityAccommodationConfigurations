@@ -97,9 +97,7 @@
       <Text>
         <Language>eng</Language>
         <Label>Closed Captioning</Label>
-        <Description>
-          Students who are deaf or hard of hearing and who typically access information presented via audio by reading words that appear in synchrony with the audio presentation may need this support to access audio content. For many students who are deaf or hard of hearing, viewing words (sometimes in combination with reading lips and ASL) is how they access information presented orally. It is important to note, however, that some students who are hard of hearing will be able to listen to information presented orally if provided with appropriate amplification and a setting in which extraneous sounds do not interfere with clear presentation of the audio presentation in a listening test. (EMBEDDED)",
-          "options": [
+        <Description>Students who are deaf or hard of hearing and who typically access information presented via audio by reading words that appear in synchrony with the audio presentation may need this support to access audio content. For many students who are deaf or hard of hearing, viewing words (sometimes in combination with reading lips and ASL) is how they access information presented orally. It is important to note, however, that some students who are hard of hearing will be able to listen to information presented orally if provided with appropriate amplification and a setting in which extraneous sounds do not interfere with clear presentation of the audio presentation in a listening test. (EMBEDDED)
         </Description>
       </Text>
       <Selection>
@@ -175,7 +173,7 @@
           <Label>EBAE Contracted</Label>
         </Text>
       </Selection>
-         <Selection>
+      <Selection>
         <Code>TDS_BT_EXL</Code>
         <Order>3</Order>
         <Text>
@@ -221,32 +219,32 @@
     </SingleSelectResource>
 
     <SingleSelectResource>
-			<Code>PermissiveMode</Code>
-			<Order>99</Order>
+      <Code>PermissiveMode</Code>
+      <Order>99</Order>
       <ResourceType>Accommodation</ResourceType>
-			<Text>
-				<Language>eng</Language>
-				<Label>Permissive Mode</Label>
+      <Text>
+        <Language>eng</Language>
+        <Label>Permissive Mode</Label>
         <Description>Allows assistive technology software such as screen readers, magnifiers, etc. to be run on the computer. When disabled, only the secure web browser is allowed to run.</Description>
-			</Text>
-			<Selection>
-				<Code>TDS_PM0</Code>
-				<Order>1</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>Off</Label>
-				</Text>
-			</Selection>
-			<Selection>
-				<Code>TDS_PM1</Code>
-				<Order>2</Order>
-				<Text>
-					<Language>eng</Language>
-					<Label>On</Label>
-				</Text>
-			</Selection>
-		</SingleSelectResource>
-    
+      </Text>
+      <Selection>
+        <Code>TDS_PM0</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Off</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_PM1</Code>
+        <Order>2</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>On</Label>
+        </Text>
+      </Selection>
+    </SingleSelectResource>
+
     <SingleSelectResource>
       <Code>PrintSize</Code>
       <Order>99</Order>
@@ -255,6 +253,8 @@
       <Text>
         <Language>eng</Language>
         <Label>Zoom</Label>
+              <Description>A tool for making text or other graphics in a window or frame appear larger on the screen. The default font size for all tests is 14 pt. The student can make text nd graphics larger by clicking the Zoom In button. The student can click the Zoom Out button to return to the default or smaller print size. When using the zoom feature, the student only changes the size of text and graphics on the current screen. To increase the default print size of the entire test (from 1.5X to 3.0X default size), the print size must be set for the student in the Administration and Registration Tool (ART), or member’s comparable platform), or set by the test administrator prior to the start of the test. This is the only feature that test administrators can set. The use of this universal tool may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
+
       </Text>
       <Selection>
         <Code>TDS_PS_L0</Code>
@@ -463,7 +463,7 @@
           <Label>Off</Label>
         </Text>
       </Selection>
-       <Selection>
+      <Selection>
         <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
         <Order>3</Order>
         <Text>
@@ -471,7 +471,7 @@
           <Label>Scientific, Graphing &amp; Regression Calculator</Label>
         </Text>
       </Selection>
-       <Selection>
+      <Selection>
         <Code>TDS_CalcSciInv</Code>
         <Order>4</Order>
         <Text>
@@ -724,15 +724,6 @@
           <Label>Strikethrough off</Label>
         </Text>
       </Selection>
-    </SingleSelectResource>
-    <SingleSelectResource>
-      <Code>Zoom</Code>
-      <Order>27</Order>
-      <Text>
-        <Language>eng</Language>
-        <Label>Zoom</Label>
-        <Description>A tool for making text or other graphics in a window or frame appear larger on the screen. The default font size for all tests is 14 pt. The student can make text nd graphics larger by clicking the Zoom In button. The student can click the Zoom Out button to return to the default or smaller print size. When using the zoom feature, the student only changes the size of text and graphics on the current screen. To increase the default print size of the entire test (from 1.5X to 3.0X default size), the print size must be set for the student in the Administration and Registration Tool (ART), or member’s comparable platform), or set by the test administrator prior to the start of the test. This is the only feature that test administrators can set. The use of this universal tool may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
-      </Text>
     </SingleSelectResource>
 
     <SingleSelectResource>
@@ -1085,49 +1076,50 @@
         <Label>Other</Label>
       </Text>
     </EditResource>
-	  
-	<SingleSelectResource>
-		<Code>TextToSpeech</Code>
-		<Order>34</Order>
-		<DefaultSelection>TDS_TTS0</DefaultSelection>
-		<ResourceType>Accommodation</ResourceType>
-		<Text>
-			<Language>eng</Language>
-			<Label>Text to speech</Label>
-		</Text>
-		<Selection>
-			<Code>TDS_TTS0</Code>
-			<Order>1</Order>
-			<Text>
-				<Language>eng</Language>
-				<Label>Off</Label>
-			</Text>
-		</Selection>
-		<Selection>
-			<Code>TDS_TTS_Item</Code>
-			<Order>1</Order>
-			<Text>
-				<Language>eng</Language>
-				<Label>Items</Label>
-			</Text>
-		</Selection>
-		<Selection>
-			<Code>TDS_TTS_Stim</Code>
-			<Order>1</Order>
-			<Text>
-				<Language>eng</Language>
-				<Label>Stimuli</Label>
-			</Text>
-		</Selection>
-		<Selection>
-			<Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
-			<Order>1</Order>
-			<Text>
-				<Language>eng</Language>
-				<Label>Items &amp; Stimuli</Label>
-			</Text>
-		</Selection>
-	</SingleSelectResource>
+
+    <SingleSelectResource>
+      <Code>TextToSpeech</Code>
+      <Order>34</Order>
+      <DefaultSelection>TDS_TTS0</DefaultSelection>
+      <ResourceType>Accommodation</ResourceType>
+      <Text>
+        <Language>eng</Language>
+        <Label>Text to speech</Label>
+        <Description>Students who are struggling readers may need assistance accessing the assessment by having all or portions of the assessment read aloud. This support also may be needed by students with reading-related disabilities, or by students who are blind and do not yet have adequate braille skills. This support will likely be confusing and may impede the performance of students who do not regularly have the support during instruction. Students who use text-to-speech will need headphones unless tested individually in a separate setting. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
+      </Text>
+      <Selection>
+        <Code>TDS_TTS0</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Off</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Item</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Items</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Stimuli</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_TTS_Stim&amp;TDS_TTS_Item</Code>
+        <Order>1</Order>
+        <Text>
+          <Language>eng</Language>
+          <Label>Items &amp; Stimuli</Label>
+        </Text>
+      </Selection>
+    </SingleSelectResource>
 
   </MasterResourceFamily>
 
@@ -1153,29 +1145,29 @@
       <DefaultSelection>TDS_PM0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <!-- Merriam Webster Elementary Dictionary -->
     <SingleSelectResource>
-    <Code>EnglishDictionary</Code>
-    <DefaultSelection>TDS_Dict_SD2</DefaultSelection>
-        <Selection>
-            <Code>TDS_Dict_SD2</Code>
-            <Text>
-              <Label>On</Label>
-            </Text>
-        </Selection>
-        <Selection>
-            <Code>TDS_Dict_SD3</Code>
-            <Hidden/>
-        </Selection>
-        <Selection>
-            <Code>TDS_Dict_SD4</Code>
-            <Hidden/>
-        </Selection>
-        <Selection>
-          <Code>TDS_Dict0</Code>
-        </Selection>
-     </SingleSelectResource>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD2</DefaultSelection>
+      <Selection>
+        <Code>TDS_Dict_SD2</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD3</Code>
+        <Hidden/>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD4</Code>
+        <Hidden/>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict0</Code>
+      </Selection>
+    </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
     <SingleSelectResource>
@@ -1194,15 +1186,15 @@
     <SingleSelectResource>
       <Code>BrailleType</Code>
       <Selection>
-          <Code>TDS_BT0</Code>
+        <Code>TDS_BT0</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_ECL</Code>
+        <Code>TDS_BT_ECL</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_EXL</Code>
+        <Code>TDS_BT_EXL</Code>
       </Selection>
-  </SingleSelectResource>
+    </SingleSelectResource>
 
 
     <!-- Disable Calculator -->
@@ -1345,7 +1337,7 @@
   </ResourceFamily>
 
 
-<!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
   <!-- RESOURCE FAMILY FOR ELA GRADES 6-8 -->
   <!-- ================================================================================================= -->
@@ -1367,29 +1359,29 @@
       <DefaultSelection>TDS_PM0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <!-- Merriam Webster Intermediate Dictionary -->
     <SingleSelectResource>
-    <Code>EnglishDictionary</Code>
-    <DefaultSelection>TDS_Dict_SD3</DefaultSelection>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD3</DefaultSelection>
       <Selection>
-          <Code>TDS_Dict_SD3</Code>
-          <Text>
-            <Label>On</Label>
-          </Text>
+        <Code>TDS_Dict_SD3</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
       </Selection>
-       <Selection>
-          <Code>TDS_Dict0</Code>
-        </Selection>
-        <Selection>
-            <Code>TDS_Dict_SD2</Code>
-            <Hidden/>
-         </Selection>
-        <Selection>
-            <Code>TDS_Dict_SD4</Code>
-            <Hidden/>
-        </Selection>
-     </SingleSelectResource>
+      <Selection>
+        <Code>TDS_Dict0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD2</Code>
+        <Hidden/>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD4</Code>
+        <Hidden/>
+      </Selection>
+    </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
     <SingleSelectResource>
@@ -1408,15 +1400,15 @@
     <SingleSelectResource>
       <Code>BrailleType</Code>
       <Selection>
-          <Code>TDS_BT0</Code>
+        <Code>TDS_BT0</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_ECL</Code>
+        <Code>TDS_BT_ECL</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_EXL</Code>
+        <Code>TDS_BT_EXL</Code>
       </Selection>
-  </SingleSelectResource>
+    </SingleSelectResource>
 
     <!-- Disable Calculator -->
     <SingleSelectResource>
@@ -1581,42 +1573,42 @@
       <Disabled/>
     </SingleSelectResource>
 
-        <!-- Merriam Webster School Dictionary -->
+    <!-- Merriam Webster School Dictionary -->
     <SingleSelectResource>
-    <Code>EnglishDictionary</Code>
-    <DefaultSelection>TDS_Dict_SD4</DefaultSelection>
+      <Code>EnglishDictionary</Code>
+      <DefaultSelection>TDS_Dict_SD4</DefaultSelection>
       <Selection>
-          <Code>TDS_Dict_SD4</Code>
-          <Text>
-            <Label>On</Label>
-          </Text>
+        <Code>TDS_Dict_SD4</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
       </Selection>
-           <Selection>
-            <Code>TDS_Dict_SD2</Code>
-            <Hidden/>
-        </Selection>
-        <Selection>
-            <Code>TDS_Dict_SD3</Code>
-            <Hidden/>
-        </Selection>
-       <Selection>
-          <Code>TDS_Dict0</Code>
-        </Selection>
-     </SingleSelectResource>
+      <Selection>
+        <Code>TDS_Dict_SD2</Code>
+        <Hidden/>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict_SD3</Code>
+        <Hidden/>
+      </Selection>
+      <Selection>
+        <Code>TDS_Dict0</Code>
+      </Selection>
+    </SingleSelectResource>
 
     <!-- Disable Braille Options -->
     <SingleSelectResource>
       <Code>BrailleType</Code>
       <Selection>
-          <Code>TDS_BT0</Code>
+        <Code>TDS_BT0</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_ECL</Code>
+        <Code>TDS_BT_ECL</Code>
       </Selection>
       <Selection>
-          <Code>TDS_BT_EXL</Code>
+        <Code>TDS_BT_EXL</Code>
       </Selection>
-  </SingleSelectResource>
+    </SingleSelectResource>
 
     <!-- Eliminate Spanish -->
     <SingleSelectResource>
@@ -1790,7 +1782,7 @@
       <DefaultSelection>TDS_PM0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -1801,7 +1793,7 @@
     <SingleSelectResource>
       <Code>EnglishDictionary</Code>
       <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
-        <Disabled/>
+      <Disabled/>
     </SingleSelectResource>
 
     <!-- Disable Calculator -->
@@ -1945,18 +1937,18 @@
       <DefaultSelection>TDS_PM0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
       <Code>ClosedCaptioning</Code>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <SingleSelectResource>
       <Code>EnglishDictionary</Code>
       <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
-        <Disabled/>
+      <Disabled/>
     </SingleSelectResource>
 
     <!-- Disable Calculator -->
@@ -2098,7 +2090,7 @@
       <DefaultSelection>TDS_PM0</DefaultSelection>
       <Disabled/>
     </SingleSelectResource>
-    
+
     <!-- "Eliminate" Closed Captioning by getting rid of all its options. It will still be present 
          so that the columns are consistent, but will not be selectable -->
     <SingleSelectResource>
@@ -2109,29 +2101,29 @@
     <SingleSelectResource>
       <Code>EnglishDictionary</Code>
       <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
-        <Disabled/>
+      <Disabled/>
     </SingleSelectResource>
 
     <SingleSelectResource>
-        <Code>Calculator</Code>
-        <DefaultSelection>TDS_CalcBasic</DefaultSelection>
-        <Selection>
-          <Code>TDS_CalcBasic</Code>
-          <Text>
-              <Label>On</Label>
-          </Text>
-        </Selection>
-        <Selection>
-          <Code>TDS_Calc0</Code>
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
-          <Hidden />
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv</Code>
-         <Hidden />
-        </Selection>
+      <Code>Calculator</Code>
+      <DefaultSelection>TDS_CalcBasic</DefaultSelection>
+      <Selection>
+        <Code>TDS_CalcBasic</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_Calc0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+        <Hidden />
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv</Code>
+        <Hidden />
+      </Selection>
     </SingleSelectResource>
 
 
@@ -2245,7 +2237,7 @@
 
   </ResourceFamily>
 
-   <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
   <!-- RESOURCE FAMILY FOR math GRADE 7-8 -->
   <!-- ================================================================================================= -->
@@ -2277,32 +2269,32 @@
     <SingleSelectResource>
       <Code>EnglishDictionary</Code>
       <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
-        <Disabled/>
+      <Disabled/>
     </SingleSelectResource>
 
- <SingleSelectResource>
+    <SingleSelectResource>
       <Code>Calculator</Code>
-        <DefaultSelection>TDS_CalcSciInv</DefaultSelection>
-        <Selection>
-          <Code>TDS_CalcBasic</Code>
-          <Hidden />
-        </Selection>
-        <Selection>
-          <Code>TDS_Calc0</Code>
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
-          <Hidden />
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv</Code>
-          <Text>
-              <Label>On</Label>
-          </Text>
-        </Selection>
+      <DefaultSelection>TDS_CalcSciInv</DefaultSelection>
+      <Selection>
+        <Code>TDS_CalcBasic</Code>
+        <Hidden />
+      </Selection>
+      <Selection>
+        <Code>TDS_Calc0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+        <Hidden />
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
+      </Selection>
     </SingleSelectResource>
 
-    
+
 
     <!-- Eliminate Bilingual Dictionary -->
     <MultiSelectResource>
@@ -2414,7 +2406,7 @@
 
   </ResourceFamily>
 
-   <!-- ================================================================================================= -->
+  <!-- ================================================================================================= -->
   <!-- ================================================================================================= -->
   <!-- RESOURCE FAMILY FOR math GRADE 9-11 -->
   <!-- ================================================================================================= -->
@@ -2447,30 +2439,30 @@
     <SingleSelectResource>
       <Code>EnglishDictionary</Code>
       <DefaultSelection>TDS_Dict_SD0</DefaultSelection>
-        <Disabled/>
+      <Disabled/>
     </SingleSelectResource>
 
 
     <SingleSelectResource>
       <Code>Calculator</Code>
       <DefaultSelection>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</DefaultSelection>
-        <Selection>
-          <Code>TDS_CalcBasic</Code>
-          <Hidden />
-        </Selection>
-        <Selection>
-          <Code>TDS_Calc0</Code>
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
-          <Text>
-              <Label>On</Label>
-          </Text>
-        </Selection>
-        <Selection>
-          <Code>TDS_CalcSciInv</Code>
-          <Hidden />
-        </Selection>
+      <Selection>
+        <Code>TDS_CalcBasic</Code>
+        <Hidden />
+      </Selection>
+      <Selection>
+        <Code>TDS_Calc0</Code>
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv&amp;TDS_CalcGraphingInv&amp;TDS_CalcRegress</Code>
+        <Text>
+          <Label>On</Label>
+        </Text>
+      </Selection>
+      <Selection>
+        <Code>TDS_CalcSciInv</Code>
+        <Hidden />
+      </Selection>
     </SingleSelectResource>
 
     <!-- Eliminate Bilingual Dictionary -->
