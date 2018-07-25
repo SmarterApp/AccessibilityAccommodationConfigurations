@@ -1119,6 +1119,7 @@
           <Label>Items &amp; Stimuli</Label>
         </Text>
       </Selection>
+	  <infoTag>Note: Text-to-Speech may differ slightly from the Text-to-Speech students experience in the assessment. Please use your state’s Practice Test to practice with Text-to-Speech.</infoTag>
     </SingleSelectResource>
 
   </MasterResourceFamily>
@@ -1229,6 +1230,7 @@
           <Label>PT Stimuli and CAT Reading Passages and Items</Label>
         </Text>
       </Selection>
+	  <infoTag>Note: Text-to-Speech may differ slightly from the Text-to-Speech students experience in the assessment. Please use your state’s Practice Test to practice with Text-to-Speech.</infoTag>
     </SingleSelectResource>
 
     <!-- Eliminate all the glossaries except for English and None -->
@@ -1443,6 +1445,7 @@
           <Label>PT Stimuli and CAT Reading Passages and Items</Label>
         </Text>
       </Selection>
+	  <infoTag>Note: Text-to-Speech may differ slightly from the Text-to-Speech students experience in the assessment. Please use your state’s Practice Test to practice with Text-to-Speech.</infoTag>
     </SingleSelectResource>
 
     <!-- Eliminate all the glossaries except for English and None -->
@@ -1655,6 +1658,7 @@
           <Label>PT Stimuli and CAT Reading Passages and Items</Label>
         </Text>
       </Selection>
+	  <infoTag>Note: Text-to-Speech may differ slightly from the Text-to-Speech students experience in the assessment. Please use your state’s Practice Test to practice with Text-to-Speech.</infoTag>
     </SingleSelectResource>
 
     <!-- Eliminate all the glossaries except for English and None -->
