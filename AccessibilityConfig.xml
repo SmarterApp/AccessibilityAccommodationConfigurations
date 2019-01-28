@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Accessibility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="AccessibilityConfig_20190123.xsd">
+							 schoolYear="2019">
 
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
@@ -982,7 +982,7 @@
 				<Description>Students may have difficulty hearing the listening portion of the passage and also do not have enough functional vision to read the closed captioning provided for the passage. These students who are visually impaired or blind and deaf or hard of hearing AND who use braille may have access to Braille Transcripts. These students must be registered in ART, or members’ comparable platform, for both Braille and Closed Captioning. The use of this accommodation may result in the student needing additional overall time to complete the assessment. (EMBEDDED)</Description>
 			</Text>
 			<Selection>
-				<Code/>
+				<Code/>  <!-- ??? -->
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
@@ -990,7 +990,7 @@
 				</Text>
 			</Selection>
 			<Selection>
-				<Code/>
+				<Code/>  <!-- ??? -->
 				<Order>2</Order>
 				<Text>
 					<Language>eng</Language>
@@ -1580,7 +1580,7 @@
 				<Description>Students who have documented motor or orthopedic impairments, which severely impairs their ability to provide written or typed responses without the use of assistive technology, may use word prediction. Students with moderate to severe learning disabilities that prevent them from recalling, processing, or expressing written language may also use word prediction. Students will need to be familiar with the software, and have had many opportunities to use it in daily instruction. Use of word prediction does require that students know writing conventions and that they have the review and editing skills required of all students. It is important that students who use word prediction also be able to develop planning notes and review their writing with or without text-to-speech. If students use their own assistive technology devices, all assessment content should be deleted from these devices after the test for security purposes. (NON-EMBEDDED)</Description>
 			</Text>
 			<Selection>
-				<Code/>
+				<Code/>  <!-- ??? -->
 				<Order>1</Order>
 				<Text>
 					<Language>eng</Language>
@@ -1588,7 +1588,7 @@
 				</Text>
 			</Selection>
 			<Selection>
-				<Code/>
+				<Code/>  <!-- ??? -->
 				<Order>2</Order>
 				<Text>
 					<Language>eng</Language>
