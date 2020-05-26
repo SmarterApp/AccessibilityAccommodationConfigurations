@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Accessibility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-							 schoolYear="2019">
+							 schoolYear="2021">
 
 	<!-- ================================================================================================= -->
 	<!-- ================================================================================================= -->
@@ -426,8 +426,16 @@
 				</Text>
 			</Selection>
 			<Selection>
-				<Code>TDS_WL_KoreanGloss</Code>
+				<Code>TDS_WL_HmongGloss</Code>
 				<Order>6</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Hmong</Label>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_WL_KoreanGloss</Code>
+				<Order>7</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Korean</Label>
@@ -435,7 +443,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_MandarinGloss</Code>
-				<Order>7</Order>
+				<Order>8</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Mandarin</Label>
@@ -443,7 +451,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_PunjabiGloss</Code>
-				<Order>8</Order>
+				<Order>9</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Punjabi</Label>
@@ -451,15 +459,22 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_RussianGloss</Code>
-				<Order>9</Order>
+				<Order>10</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Russian</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_SomaliGloss</Code>
+				<Order>11</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Somali</Label>
+				</Text>
+			</Selection>			<Selection>
 				<Code>TDS_WL_TagalGloss</Code>
-				<Order>10</Order>
+				<Order>12</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Filipino (Ilokano &amp; Tagalog)</Label>
@@ -467,7 +482,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_UkrainianGloss</Code>
-				<Order>11</Order>
+				<Order>13</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Ukrainian</Label>
@@ -475,7 +490,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_VietnameseGloss</Code>
-				<Order>12</Order>
+				<Order>14</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Vietnamese</Label>
@@ -483,7 +498,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_ArabicGloss&amp;TDS_WL_Glossary</Code>
-				<Order>13</Order>
+				<Order>15</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Arabic &amp; English</Label>
@@ -491,7 +506,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_BurmeseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>14</Order>
+				<Order>16</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Arabic &amp; English</Label>
@@ -499,7 +514,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_CantoneseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>15</Order>
+				<Order>17</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Cantonese &amp; English</Label>
@@ -507,15 +522,23 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_ESNGlossary&amp;TDS_WL_Glossary</Code>
-				<Order>16</Order>
+				<Order>18</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Spanish &amp; English</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_HmongGloss&amp;TDS_WL_Glossary</Code>
+				<Order>19</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Hmong &amp; English</Label>
+				</Text>
+			</Selection>
+			<Selection>
 				<Code>TDS_WL_KoreanGloss&amp;TDS_WL_Glossary</Code>
-				<Order>17</Order>
+				<Order>20</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Korean &amp; English</Label>
@@ -523,7 +546,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_MandarinGloss&amp;TDS_WL_Glossary</Code>
-				<Order>18</Order>
+				<Order>21</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Mandarin &amp; English</Label>
@@ -531,7 +554,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_PunjabiGloss&amp;TDS_WL_Glossary</Code>
-				<Order>19</Order>
+				<Order>22</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Punjabi &amp; English</Label>
@@ -539,15 +562,23 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_RussianGloss&amp;TDS_WL_Glossar</Code>
-				<Order>20</Order>
+				<Order>23</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Russian &amp; English</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_SomaliGloss&amp;TDS_WL_Glossar</Code>
+				<Order>24</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Somali &amp; English</Label>
+				</Text>
+			</Selection>
+			<Selection>
 				<Code>TDS_WL_TagalGloss&amp;TDS_WL_Glossary</Code>
-				<Order>21</Order>
+				<Order>25</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Filipino (Ilokano &amp; Tagalog) &amp; English</Label>
@@ -555,7 +586,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_UkrainianGloss&amp;TDS_WL_Glossary</Code>
-				<Order>22</Order>
+				<Order>26</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Ukrainian &amp; English</Label>
@@ -563,7 +594,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_VietnameseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>23</Order>
+				<Order>27</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Vietnamese &amp; English</Label>
@@ -1702,12 +1733,11 @@
 		<SingleSelectResource>			
 			<Code>Translation</Code>
 			<Order>45</Order>
-			<EmbedType>NonEmbed</EmbedType>
 			<ResourceType>DesignatedSupport</ResourceType>
 			<Text>
 				<Language>eng</Language>
-				<Label>Translation Glossaries (NON-EMBEDDED)*</Label>
-				<Description>Support for students needing access in language(s) of translation. Definition: Students who have limited English language skills can use the translation glossary for specific items. The use of this support may result in the student needing additional overall time to complete the assessment. (NON-EMBEDDED)</Description>
+				<Label>Translation Glossaries (EMBEDDED)*</Label>
+				<Description>Students who have limited English language skills (whether or not designated as ELLs or ELLs with disabilities) can use the translation glossary for specific items. The use of this support may result in the student needing additional overall time to complete the assessment. Use of this support will likely also require separate setting or extra time. (EMBEDDED)</Description>
 			</Text>
 			<Selection>
 				<Code>TDS_WL_Glossary</Code>
@@ -1750,8 +1780,16 @@
 				</Text>
 			</Selection>
 			<Selection>
-				<Code>TDS_WL_KoreanGloss</Code>
+				<Code>TDS_WL_HmongGloss</Code>
 				<Order>6</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Hmong</Label>
+				</Text>
+			</Selection>
+			<Selection>
+				<Code>TDS_WL_KoreanGloss</Code>
+				<Order>7</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Korean</Label>
@@ -1759,7 +1797,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_MandarinGloss</Code>
-				<Order>7</Order>
+				<Order>8</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Mandarin</Label>
@@ -1767,7 +1805,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_PunjabiGloss</Code>
-				<Order>8</Order>
+				<Order>9</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Punjabi</Label>
@@ -1775,15 +1813,22 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_RussianGloss</Code>
-				<Order>9</Order>
+				<Order>10</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Russian</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_SomaliGloss</Code>
+				<Order>11</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Somali</Label>
+				</Text>
+			</Selection>			<Selection>
 				<Code>TDS_WL_TagalGloss</Code>
-				<Order>10</Order>
+				<Order>12</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Filipino (Ilokano &amp; Tagalog)</Label>
@@ -1791,7 +1836,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_UkrainianGloss</Code>
-				<Order>11</Order>
+				<Order>13</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Ukrainian</Label>
@@ -1799,7 +1844,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_VietnameseGloss</Code>
-				<Order>12</Order>
+				<Order>14</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Vietnamese</Label>
@@ -1807,7 +1852,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_ArabicGloss&amp;TDS_WL_Glossary</Code>
-				<Order>13</Order>
+				<Order>15</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Arabic &amp; English</Label>
@@ -1815,15 +1860,15 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_BurmeseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>14</Order>
+				<Order>16</Order>
 				<Text>
 					<Language>eng</Language>
-					<Label>Burmese &amp; English</Label>
+					<Label>Arabic &amp; English</Label>
 				</Text>
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_CantoneseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>15</Order>
+				<Order>17</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Cantonese &amp; English</Label>
@@ -1831,15 +1876,23 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_ESNGlossary&amp;TDS_WL_Glossary</Code>
-				<Order>16</Order>
+				<Order>18</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Spanish &amp; English</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_HmongGloss&amp;TDS_WL_Glossary</Code>
+				<Order>19</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Hmong &amp; English</Label>
+				</Text>
+			</Selection>
+			<Selection>
 				<Code>TDS_WL_KoreanGloss&amp;TDS_WL_Glossary</Code>
-				<Order>17</Order>
+				<Order>20</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Korean &amp; English</Label>
@@ -1847,7 +1900,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_MandarinGloss&amp;TDS_WL_Glossary</Code>
-				<Order>18</Order>
+				<Order>21</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Mandarin &amp; English</Label>
@@ -1855,7 +1908,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_PunjabiGloss&amp;TDS_WL_Glossary</Code>
-				<Order>19</Order>
+				<Order>22</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Punjabi &amp; English</Label>
@@ -1863,15 +1916,23 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_RussianGloss&amp;TDS_WL_Glossar</Code>
-				<Order>20</Order>
+				<Order>23</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Russian &amp; English</Label>
 				</Text>
 			</Selection>
 			<Selection>
+				<Code>TDS_WL_SomaliGloss&amp;TDS_WL_Glossar</Code>
+				<Order>24</Order>
+				<Text>
+					<Language>eng</Language>
+					<Label>Somali &amp; English</Label>
+				</Text>
+			</Selection>
+			<Selection>
 				<Code>TDS_WL_TagalGloss&amp;TDS_WL_Glossary</Code>
-				<Order>21</Order>
+				<Order>25</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Filipino (Ilokano &amp; Tagalog) &amp; English</Label>
@@ -1879,7 +1940,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_UkrainianGloss&amp;TDS_WL_Glossary</Code>
-				<Order>22</Order>
+				<Order>26</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Ukrainian &amp; English</Label>
@@ -1887,7 +1948,7 @@
 			</Selection>
 			<Selection>
 				<Code>TDS_WL_VietnameseGloss&amp;TDS_WL_Glossary</Code>
-				<Order>23</Order>
+				<Order>27</Order>
 				<Text>
 					<Language>eng</Language>
 					<Label>Vietnamese &amp; English</Label>
